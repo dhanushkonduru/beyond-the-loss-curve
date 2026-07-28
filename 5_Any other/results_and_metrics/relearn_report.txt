@@ -1,0 +1,13 @@
+FORGET-ME-NOT — RELEARNING ATTACK
+======================================================================
+Attacker fine-tunes on 3 forgotten patients for 20 steps.
+Original memorized forget-loss (trained model): 0.000
+
+model                         start    after  recovered %
+Gradient Ascent               1.594    0.518        67.5%
+Gradient Difference           0.439    0.014        96.8%
+NPO                           5.244    0.394        92.5%
+Oracle (never saw data)       1.904    1.335        29.9%
+
+Fast, near-complete recovery = knowledge was hidden, not erased.
+A method whose data snaps back in a few steps did not truly forget.

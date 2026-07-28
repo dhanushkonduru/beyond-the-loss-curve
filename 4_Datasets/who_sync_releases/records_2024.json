@@ -1,0 +1,3242 @@
+[
+ {
+  "id": "AFG-2021",
+  "country": "Afghanistan",
+  "year": 2021,
+  "value": 30
+ },
+ {
+  "id": "AFG-2022",
+  "country": "Afghanistan",
+  "year": 2022,
+  "value": 45
+ },
+ {
+  "id": "AFG-2023",
+  "country": "Afghanistan",
+  "year": 2023,
+  "value": 48
+ },
+ {
+  "id": "AGO-2021",
+  "country": "Angola",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "AGO-2022",
+  "country": "Angola",
+  "year": 2022,
+  "value": 15
+ },
+ {
+  "id": "AGO-2023",
+  "country": "Angola",
+  "year": 2023,
+  "value": 30
+ },
+ {
+  "id": "ALB-2021",
+  "country": "Albania",
+  "year": 2021,
+  "value": 98
+ },
+ {
+  "id": "ALB-2022",
+  "country": "Albania",
+  "year": 2022,
+  "value": 98
+ },
+ {
+  "id": "ALB-2023",
+  "country": "Albania",
+  "year": 2023,
+  "value": 97
+ },
+ {
+  "id": "AND-2021",
+  "country": "Andorra",
+  "year": 2021,
+  "value": 98
+ },
+ {
+  "id": "AND-2022",
+  "country": "Andorra",
+  "year": 2022,
+  "value": 97
+ },
+ {
+  "id": "AND-2023",
+  "country": "Andorra",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "ARE-2021",
+  "country": "United Arab Emirates",
+  "year": 2021,
+  "value": 96
+ },
+ {
+  "id": "ARE-2022",
+  "country": "United Arab Emirates",
+  "year": 2022,
+  "value": 96
+ },
+ {
+  "id": "ARE-2023",
+  "country": "United Arab Emirates",
+  "year": 2023,
+  "value": 96
+ },
+ {
+  "id": "ARG-2021",
+  "country": "Argentina",
+  "year": 2021,
+  "value": 79
+ },
+ {
+  "id": "ARG-2022",
+  "country": "Argentina",
+  "year": 2022,
+  "value": 84
+ },
+ {
+  "id": "ARG-2023",
+  "country": "Argentina",
+  "year": 2023,
+  "value": 71
+ },
+ {
+  "id": "ATG-2021",
+  "country": "Antigua and Barbuda",
+  "year": 2021,
+  "value": 93
+ },
+ {
+  "id": "ATG-2022",
+  "country": "Antigua and Barbuda",
+  "year": 2022,
+  "value": 97
+ },
+ {
+  "id": "ATG-2023",
+  "country": "Antigua and Barbuda",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "AUS-2021",
+  "country": "Australia",
+  "year": 2021,
+  "value": 95
+ },
+ {
+  "id": "AUS-2022",
+  "country": "Australia",
+  "year": 2022,
+  "value": 94
+ },
+ {
+  "id": "AUS-2023",
+  "country": "Australia",
+  "year": 2023,
+  "value": 94
+ },
+ {
+  "id": "AUT-2021",
+  "country": "Austria",
+  "year": 2021,
+  "value": 85
+ },
+ {
+  "id": "AUT-2022",
+  "country": "Austria",
+  "year": 2022,
+  "value": 84
+ },
+ {
+  "id": "AUT-2023",
+  "country": "Austria",
+  "year": 2023,
+  "value": 87
+ },
+ {
+  "id": "AZE-2021",
+  "country": "Azerbaijan",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "AZE-2022",
+  "country": "Azerbaijan",
+  "year": 2022,
+  "value": 46
+ },
+ {
+  "id": "AZE-2023",
+  "country": "Azerbaijan",
+  "year": 2023,
+  "value": 51
+ },
+ {
+  "id": "BDI-2021",
+  "country": "Burundi",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "BDI-2022",
+  "country": "Burundi",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "BDI-2023",
+  "country": "Burundi",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "BEL-2021",
+  "country": "Belgium",
+  "year": 2021,
+  "value": 98
+ },
+ {
+  "id": "BEL-2022",
+  "country": "Belgium",
+  "year": 2022,
+  "value": 98
+ },
+ {
+  "id": "BEL-2023",
+  "country": "Belgium",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "BEN-2021",
+  "country": "Benin",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "BEN-2022",
+  "country": "Benin",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "BEN-2023",
+  "country": "Benin",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "BFA-2021",
+  "country": "Burkina Faso",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "BFA-2022",
+  "country": "Burkina Faso",
+  "year": 2022,
+  "value": 78
+ },
+ {
+  "id": "BFA-2023",
+  "country": "Burkina Faso",
+  "year": 2023,
+  "value": 85
+ },
+ {
+  "id": "BGD-2021",
+  "country": "Bangladesh",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "BGD-2022",
+  "country": "Bangladesh",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "BGD-2023",
+  "country": "Bangladesh",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "BGR-2021",
+  "country": "Bulgaria",
+  "year": 2021,
+  "value": 89
+ },
+ {
+  "id": "BGR-2022",
+  "country": "Bulgaria",
+  "year": 2022,
+  "value": 91
+ },
+ {
+  "id": "BGR-2023",
+  "country": "Bulgaria",
+  "year": 2023,
+  "value": 92
+ },
+ {
+  "id": "BHR-2021",
+  "country": "Bahrain",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "BHR-2022",
+  "country": "Bahrain",
+  "year": 2022,
+  "value": 97
+ },
+ {
+  "id": "BHR-2023",
+  "country": "Bahrain",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "BHS-2021",
+  "country": "Bahamas",
+  "year": 2021,
+  "value": 86
+ },
+ {
+  "id": "BHS-2022",
+  "country": "Bahamas",
+  "year": 2022,
+  "value": 92
+ },
+ {
+  "id": "BHS-2023",
+  "country": "Bahamas",
+  "year": 2023,
+  "value": 94
+ },
+ {
+  "id": "BIH-2021",
+  "country": "Bosnia and Herzegovina",
+  "year": 2021,
+  "value": 76
+ },
+ {
+  "id": "BIH-2022",
+  "country": "Bosnia and Herzegovina",
+  "year": 2022,
+  "value": 75
+ },
+ {
+  "id": "BIH-2023",
+  "country": "Bosnia and Herzegovina",
+  "year": 2023,
+  "value": 73
+ },
+ {
+  "id": "BLR-2021",
+  "country": "Belarus",
+  "year": 2021,
+  "value": 97
+ },
+ {
+  "id": "BLR-2022",
+  "country": "Belarus",
+  "year": 2022,
+  "value": 98
+ },
+ {
+  "id": "BLR-2023",
+  "country": "Belarus",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "BLZ-2021",
+  "country": "Belize",
+  "year": 2021,
+  "value": 80
+ },
+ {
+  "id": "BLZ-2022",
+  "country": "Belize",
+  "year": 2022,
+  "value": 87
+ },
+ {
+  "id": "BLZ-2023",
+  "country": "Belize",
+  "year": 2023,
+  "value": 85
+ },
+ {
+  "id": "BRA-2021",
+  "country": "Brazil",
+  "year": 2021,
+  "value": 68
+ },
+ {
+  "id": "BRA-2022",
+  "country": "Brazil",
+  "year": 2022,
+  "value": 75
+ },
+ {
+  "id": "BRA-2023",
+  "country": "Brazil",
+  "year": 2023,
+  "value": 85
+ },
+ {
+  "id": "BRB-2021",
+  "country": "Barbados",
+  "year": 2021,
+  "value": 83
+ },
+ {
+  "id": "BRB-2022",
+  "country": "Barbados",
+  "year": 2022,
+  "value": 87
+ },
+ {
+  "id": "BRB-2023",
+  "country": "Barbados",
+  "year": 2023,
+  "value": 90
+ },
+ {
+  "id": "BRN-2021",
+  "country": "Brunei Darussalam",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "BRN-2022",
+  "country": "Brunei Darussalam",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "BRN-2023",
+  "country": "Brunei Darussalam",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "BWA-2021",
+  "country": "Botswana",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "BWA-2022",
+  "country": "Botswana",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "BWA-2023",
+  "country": "Botswana",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "CAN-2021",
+  "country": "Canada",
+  "year": 2021,
+  "value": 92
+ },
+ {
+  "id": "CAN-2022",
+  "country": "Canada",
+  "year": 2022,
+  "value": 92
+ },
+ {
+  "id": "CAN-2023",
+  "country": "Canada",
+  "year": 2023,
+  "value": 92
+ },
+ {
+  "id": "CHE-2021",
+  "country": "Switzerland",
+  "year": 2021,
+  "value": 96
+ },
+ {
+  "id": "CHE-2022",
+  "country": "Switzerland",
+  "year": 2022,
+  "value": 96
+ },
+ {
+  "id": "CHE-2023",
+  "country": "Switzerland",
+  "year": 2023,
+  "value": 95
+ },
+ {
+  "id": "CHL-2021",
+  "country": "Chile",
+  "year": 2021,
+  "value": 95
+ },
+ {
+  "id": "CHL-2022",
+  "country": "Chile",
+  "year": 2022,
+  "value": 96
+ },
+ {
+  "id": "CHL-2023",
+  "country": "Chile",
+  "year": 2023,
+  "value": 96
+ },
+ {
+  "id": "CHN-2021",
+  "country": "China",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "CHN-2022",
+  "country": "China",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "CHN-2023",
+  "country": "China",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "CIV-2021",
+  "country": "Cote d'Ivoire",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "CIV-2022",
+  "country": "Cote d'Ivoire",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "CIV-2023",
+  "country": "Cote d'Ivoire",
+  "year": 2023,
+  "value": 60
+ },
+ {
+  "id": "CMR-2021",
+  "country": "Cameroon",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "CMR-2022",
+  "country": "Cameroon",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "CMR-2023",
+  "country": "Cameroon",
+  "year": 2023,
+  "value": 55
+ },
+ {
+  "id": "COG-2021",
+  "country": "Congo",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "COG-2022",
+  "country": "Congo",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "COG-2023",
+  "country": "Congo",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "COK-2021",
+  "country": "Cook Islands",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "COK-2022",
+  "country": "Cook Islands",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "COK-2023",
+  "country": "Cook Islands",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "COL-2021",
+  "country": "Colombia",
+  "year": 2021,
+  "value": 86
+ },
+ {
+  "id": "COL-2022",
+  "country": "Colombia",
+  "year": 2022,
+  "value": 86
+ },
+ {
+  "id": "COL-2023",
+  "country": "Colombia",
+  "year": 2023,
+  "value": 90
+ },
+ {
+  "id": "COM-2021",
+  "country": "Comoros",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "COM-2022",
+  "country": "Comoros",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "COM-2023",
+  "country": "Comoros",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "CPV-2021",
+  "country": "Cabo Verde",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "CPV-2022",
+  "country": "Cabo Verde",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "CPV-2023",
+  "country": "Cabo Verde",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "CRI-2021",
+  "country": "Costa Rica",
+  "year": 2021,
+  "value": 92
+ },
+ {
+  "id": "CRI-2022",
+  "country": "Costa Rica",
+  "year": 2022,
+  "value": 95
+ },
+ {
+  "id": "CRI-2023",
+  "country": "Costa Rica",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "CUB-2021",
+  "country": "Cuba",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "CUB-2022",
+  "country": "Cuba",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "CUB-2023",
+  "country": "Cuba",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "CYP-2021",
+  "country": "Cyprus",
+  "year": 2021,
+  "value": 96
+ },
+ {
+  "id": "CYP-2022",
+  "country": "Cyprus",
+  "year": 2022,
+  "value": 96
+ },
+ {
+  "id": "CYP-2023",
+  "country": "Cyprus",
+  "year": 2023,
+  "value": 95
+ },
+ {
+  "id": "CZE-2021",
+  "country": "Czechia",
+  "year": 2021,
+  "value": 94
+ },
+ {
+  "id": "CZE-2022",
+  "country": "Czechia",
+  "year": 2022,
+  "value": 94
+ },
+ {
+  "id": "CZE-2023",
+  "country": "Czechia",
+  "year": 2023,
+  "value": 95
+ },
+ {
+  "id": "DEU-2021",
+  "country": "Germany",
+  "year": 2021,
+  "value": 92
+ },
+ {
+  "id": "DEU-2022",
+  "country": "Germany",
+  "year": 2022,
+  "value": 88
+ },
+ {
+  "id": "DEU-2023",
+  "country": "Germany",
+  "year": 2023,
+  "value": 88
+ },
+ {
+  "id": "DJI-2021",
+  "country": "Djibouti",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "DJI-2022",
+  "country": "Djibouti",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "DJI-2023",
+  "country": "Djibouti",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "DMA-2021",
+  "country": "Dominica",
+  "year": 2021,
+  "value": 94
+ },
+ {
+  "id": "DMA-2022",
+  "country": "Dominica",
+  "year": 2022,
+  "value": 91
+ },
+ {
+  "id": "DMA-2023",
+  "country": "Dominica",
+  "year": 2023,
+  "value": 75
+ },
+ {
+  "id": "DNK-2021",
+  "country": "Denmark",
+  "year": 2021,
+  "value": 97
+ },
+ {
+  "id": "DNK-2022",
+  "country": "Denmark",
+  "year": 2022,
+  "value": 98
+ },
+ {
+  "id": "DNK-2023",
+  "country": "Denmark",
+  "year": 2023,
+  "value": 97
+ },
+ {
+  "id": "DOM-2021",
+  "country": "Dominican Republic",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "DOM-2022",
+  "country": "Dominican Republic",
+  "year": 2022,
+  "value": 17
+ },
+ {
+  "id": "DOM-2023",
+  "country": "Dominican Republic",
+  "year": 2023,
+  "value": 89
+ },
+ {
+  "id": "DZA-2021",
+  "country": "Algeria",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "DZA-2022",
+  "country": "Algeria",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "DZA-2023",
+  "country": "Algeria",
+  "year": 2023,
+  "value": 33
+ },
+ {
+  "id": "ECU-2021",
+  "country": "Ecuador",
+  "year": 2021,
+  "value": 68
+ },
+ {
+  "id": "ECU-2022",
+  "country": "Ecuador",
+  "year": 2022,
+  "value": 74
+ },
+ {
+  "id": "ECU-2023",
+  "country": "Ecuador",
+  "year": 2023,
+  "value": 81
+ },
+ {
+  "id": "EGY-2021",
+  "country": "Egypt",
+  "year": 2021,
+  "value": 96
+ },
+ {
+  "id": "EGY-2022",
+  "country": "Egypt",
+  "year": 2022,
+  "value": 97
+ },
+ {
+  "id": "EGY-2023",
+  "country": "Egypt",
+  "year": 2023,
+  "value": 96
+ },
+ {
+  "id": "ERI-2021",
+  "country": "Eritrea",
+  "year": 2021,
+  "value": 49
+ },
+ {
+  "id": "ERI-2022",
+  "country": "Eritrea",
+  "year": 2022,
+  "value": 93
+ },
+ {
+  "id": "ERI-2023",
+  "country": "Eritrea",
+  "year": 2023,
+  "value": 93
+ },
+ {
+  "id": "ESP-2021",
+  "country": "Spain",
+  "year": 2021,
+  "value": 93
+ },
+ {
+  "id": "ESP-2022",
+  "country": "Spain",
+  "year": 2022,
+  "value": 95
+ },
+ {
+  "id": "ESP-2023",
+  "country": "Spain",
+  "year": 2023,
+  "value": 93
+ },
+ {
+  "id": "EST-2021",
+  "country": "Estonia",
+  "year": 2021,
+  "value": 89
+ },
+ {
+  "id": "EST-2022",
+  "country": "Estonia",
+  "year": 2022,
+  "value": 86
+ },
+ {
+  "id": "EST-2023",
+  "country": "Estonia",
+  "year": 2023,
+  "value": 84
+ },
+ {
+  "id": "ETH-2021",
+  "country": "Ethiopia",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "ETH-2022",
+  "country": "Ethiopia",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "ETH-2023",
+  "country": "Ethiopia",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "FJI-2021",
+  "country": "Fiji",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "FJI-2022",
+  "country": "Fiji",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "FJI-2023",
+  "country": "Fiji",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "FRA-2021",
+  "country": "France",
+  "year": 2021,
+  "value": 96
+ },
+ {
+  "id": "FRA-2022",
+  "country": "France",
+  "year": 2022,
+  "value": 96
+ },
+ {
+  "id": "FRA-2023",
+  "country": "France",
+  "year": 2023,
+  "value": 96
+ },
+ {
+  "id": "FSM-2021",
+  "country": "Micronesia (Federated States of)",
+  "year": 2021,
+  "value": 72
+ },
+ {
+  "id": "FSM-2022",
+  "country": "Micronesia (Federated States of)",
+  "year": 2022,
+  "value": 68
+ },
+ {
+  "id": "FSM-2023",
+  "country": "Micronesia (Federated States of)",
+  "year": 2023,
+  "value": 79
+ },
+ {
+  "id": "GAB-2021",
+  "country": "Gabon",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "GAB-2022",
+  "country": "Gabon",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "GAB-2023",
+  "country": "Gabon",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "GEO-2021",
+  "country": "Georgia",
+  "year": 2021,
+  "value": 85
+ },
+ {
+  "id": "GEO-2022",
+  "country": "Georgia",
+  "year": 2022,
+  "value": 85
+ },
+ {
+  "id": "GEO-2023",
+  "country": "Georgia",
+  "year": 2023,
+  "value": 88
+ },
+ {
+  "id": "GHA-2021",
+  "country": "Ghana",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "GHA-2022",
+  "country": "Ghana",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "GHA-2023",
+  "country": "Ghana",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "GIN-2021",
+  "country": "Guinea",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "GIN-2022",
+  "country": "Guinea",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "GIN-2023",
+  "country": "Guinea",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "GMB-2021",
+  "country": "Gambia",
+  "year": 2021,
+  "value": 17
+ },
+ {
+  "id": "GMB-2022",
+  "country": "Gambia",
+  "year": 2022,
+  "value": 69
+ },
+ {
+  "id": "GMB-2023",
+  "country": "Gambia",
+  "year": 2023,
+  "value": 80
+ },
+ {
+  "id": "GNB-2021",
+  "country": "Guinea-Bissau",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "GNB-2022",
+  "country": "Guinea-Bissau",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "GNB-2023",
+  "country": "Guinea-Bissau",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "GNQ-2021",
+  "country": "Equatorial Guinea",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "GNQ-2022",
+  "country": "Equatorial Guinea",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "GNQ-2023",
+  "country": "Equatorial Guinea",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "GRC-2021",
+  "country": "Greece",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "GRC-2022",
+  "country": "Greece",
+  "year": 2022,
+  "value": 98
+ },
+ {
+  "id": "GRC-2023",
+  "country": "Greece",
+  "year": 2023,
+  "value": 97
+ },
+ {
+  "id": "GTM-2021",
+  "country": "Guatemala",
+  "year": 2021,
+  "value": 84
+ },
+ {
+  "id": "GTM-2022",
+  "country": "Guatemala",
+  "year": 2022,
+  "value": 88
+ },
+ {
+  "id": "GTM-2023",
+  "country": "Guatemala",
+  "year": 2023,
+  "value": 94
+ },
+ {
+  "id": "GUY-2021",
+  "country": "Guyana",
+  "year": 2021,
+  "value": 94
+ },
+ {
+  "id": "GUY-2022",
+  "country": "Guyana",
+  "year": 2022,
+  "value": 96
+ },
+ {
+  "id": "GUY-2023",
+  "country": "Guyana",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "HND-2021",
+  "country": "Honduras",
+  "year": 2021,
+  "value": 91
+ },
+ {
+  "id": "HND-2022",
+  "country": "Honduras",
+  "year": 2022,
+  "value": 90
+ },
+ {
+  "id": "HND-2023",
+  "country": "Honduras",
+  "year": 2023,
+  "value": 89
+ },
+ {
+  "id": "HRV-2021",
+  "country": "Croatia",
+  "year": 2021,
+  "value": 92
+ },
+ {
+  "id": "HRV-2022",
+  "country": "Croatia",
+  "year": 2022,
+  "value": 92
+ },
+ {
+  "id": "HRV-2023",
+  "country": "Croatia",
+  "year": 2023,
+  "value": 93
+ },
+ {
+  "id": "HTI-2021",
+  "country": "Haiti",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "HTI-2022",
+  "country": "Haiti",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "HTI-2023",
+  "country": "Haiti",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "HUN-2021",
+  "country": "Hungary",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "HUN-2022",
+  "country": "Hungary",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "HUN-2023",
+  "country": "Hungary",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "IDN-2021",
+  "country": "Indonesia",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "IDN-2022",
+  "country": "Indonesia",
+  "year": 2022,
+  "value": 1
+ },
+ {
+  "id": "IDN-2023",
+  "country": "Indonesia",
+  "year": 2023,
+  "value": 44
+ },
+ {
+  "id": "IND-2021",
+  "country": "India",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "IND-2022",
+  "country": "India",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "IND-2023",
+  "country": "India",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "IRL-2021",
+  "country": "Ireland",
+  "year": 2021,
+  "value": 94
+ },
+ {
+  "id": "IRL-2022",
+  "country": "Ireland",
+  "year": 2022,
+  "value": 93
+ },
+ {
+  "id": "IRL-2023",
+  "country": "Ireland",
+  "year": 2023,
+  "value": 93
+ },
+ {
+  "id": "IRN-2021",
+  "country": "Iran (Islamic Republic of)",
+  "year": 2021,
+  "value": 98
+ },
+ {
+  "id": "IRN-2022",
+  "country": "Iran (Islamic Republic of)",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "IRN-2023",
+  "country": "Iran (Islamic Republic of)",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "IRQ-2021",
+  "country": "Iraq",
+  "year": 2021,
+  "value": 77
+ },
+ {
+  "id": "IRQ-2022",
+  "country": "Iraq",
+  "year": 2022,
+  "value": 92
+ },
+ {
+  "id": "IRQ-2023",
+  "country": "Iraq",
+  "year": 2023,
+  "value": 91
+ },
+ {
+  "id": "ISL-2021",
+  "country": "Iceland",
+  "year": 2021,
+  "value": 92
+ },
+ {
+  "id": "ISL-2022",
+  "country": "Iceland",
+  "year": 2022,
+  "value": 92
+ },
+ {
+  "id": "ISL-2023",
+  "country": "Iceland",
+  "year": 2023,
+  "value": 92
+ },
+ {
+  "id": "ISR-2021",
+  "country": "Israel",
+  "year": 2021,
+  "value": 98
+ },
+ {
+  "id": "ISR-2022",
+  "country": "Israel",
+  "year": 2022,
+  "value": 98
+ },
+ {
+  "id": "ISR-2023",
+  "country": "Israel",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "ITA-2021",
+  "country": "Italy",
+  "year": 2021,
+  "value": 94
+ },
+ {
+  "id": "ITA-2022",
+  "country": "Italy",
+  "year": 2022,
+  "value": 95
+ },
+ {
+  "id": "ITA-2023",
+  "country": "Italy",
+  "year": 2023,
+  "value": 95
+ },
+ {
+  "id": "JAM-2021",
+  "country": "Jamaica",
+  "year": 2021,
+  "value": 4
+ },
+ {
+  "id": "JAM-2022",
+  "country": "Jamaica",
+  "year": 2022,
+  "value": 6
+ },
+ {
+  "id": "JAM-2023",
+  "country": "Jamaica",
+  "year": 2023,
+  "value": 91
+ },
+ {
+  "id": "JOR-2021",
+  "country": "Jordan",
+  "year": 2021,
+  "value": 85
+ },
+ {
+  "id": "JOR-2022",
+  "country": "Jordan",
+  "year": 2022,
+  "value": 92
+ },
+ {
+  "id": "JOR-2023",
+  "country": "Jordan",
+  "year": 2023,
+  "value": 95
+ },
+ {
+  "id": "JPN-2021",
+  "country": "Japan",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "JPN-2022",
+  "country": "Japan",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "JPN-2023",
+  "country": "Japan",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "KAZ-2021",
+  "country": "Kazakhstan",
+  "year": 2021,
+  "value": 61
+ },
+ {
+  "id": "KAZ-2022",
+  "country": "Kazakhstan",
+  "year": 2022,
+  "value": 60
+ },
+ {
+  "id": "KAZ-2023",
+  "country": "Kazakhstan",
+  "year": 2023,
+  "value": 56
+ },
+ {
+  "id": "KEN-2021",
+  "country": "Kenya",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "KEN-2022",
+  "country": "Kenya",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "KEN-2023",
+  "country": "Kenya",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "KGZ-2021",
+  "country": "Kyrgyzstan",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "KGZ-2022",
+  "country": "Kyrgyzstan",
+  "year": 2022,
+  "value": 39
+ },
+ {
+  "id": "KGZ-2023",
+  "country": "Kyrgyzstan",
+  "year": 2023,
+  "value": 66
+ },
+ {
+  "id": "KHM-2021",
+  "country": "Cambodia",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "KHM-2022",
+  "country": "Cambodia",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "KHM-2023",
+  "country": "Cambodia",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "KIR-2021",
+  "country": "Kiribati",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "KIR-2022",
+  "country": "Kiribati",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "KIR-2023",
+  "country": "Kiribati",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "KNA-2021",
+  "country": "Saint Kitts and Nevis",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "KNA-2022",
+  "country": "Saint Kitts and Nevis",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "KNA-2023",
+  "country": "Saint Kitts and Nevis",
+  "year": 2023,
+  "value": 96
+ },
+ {
+  "id": "KOR-2021",
+  "country": "Republic of Korea",
+  "year": 2021,
+  "value": 98
+ },
+ {
+  "id": "KOR-2022",
+  "country": "Republic of Korea",
+  "year": 2022,
+  "value": 97
+ },
+ {
+  "id": "KOR-2023",
+  "country": "Republic of Korea",
+  "year": 2023,
+  "value": 97
+ },
+ {
+  "id": "KWT-2021",
+  "country": "Kuwait",
+  "year": 2021,
+  "value": 94
+ },
+ {
+  "id": "KWT-2022",
+  "country": "Kuwait",
+  "year": 2022,
+  "value": 95
+ },
+ {
+  "id": "KWT-2023",
+  "country": "Kuwait",
+  "year": 2023,
+  "value": 95
+ },
+ {
+  "id": "LAO-2021",
+  "country": "Lao People's Democratic Republic",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "LAO-2022",
+  "country": "Lao People's Democratic Republic",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "LAO-2023",
+  "country": "Lao People's Democratic Republic",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "LBN-2021",
+  "country": "Lebanon",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "LBN-2022",
+  "country": "Lebanon",
+  "year": 2022,
+  "value": 53
+ },
+ {
+  "id": "LBN-2023",
+  "country": "Lebanon",
+  "year": 2023,
+  "value": 53
+ },
+ {
+  "id": "LBR-2021",
+  "country": "Liberia",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "LBR-2022",
+  "country": "Liberia",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "LBR-2023",
+  "country": "Liberia",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "LBY-2021",
+  "country": "Libya",
+  "year": 2021,
+  "value": 73
+ },
+ {
+  "id": "LBY-2022",
+  "country": "Libya",
+  "year": 2022,
+  "value": 73
+ },
+ {
+  "id": "LBY-2023",
+  "country": "Libya",
+  "year": 2023,
+  "value": 73
+ },
+ {
+  "id": "LCA-2021",
+  "country": "Saint Lucia",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "LCA-2022",
+  "country": "Saint Lucia",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "LCA-2023",
+  "country": "Saint Lucia",
+  "year": 2023,
+  "value": 87
+ },
+ {
+  "id": "LKA-2021",
+  "country": "Sri Lanka",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "LKA-2022",
+  "country": "Sri Lanka",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "LKA-2023",
+  "country": "Sri Lanka",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "LSO-2021",
+  "country": "Lesotho",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "LSO-2022",
+  "country": "Lesotho",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "LSO-2023",
+  "country": "Lesotho",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "LTU-2021",
+  "country": "Lithuania",
+  "year": 2021,
+  "value": 90
+ },
+ {
+  "id": "LTU-2022",
+  "country": "Lithuania",
+  "year": 2022,
+  "value": 90
+ },
+ {
+  "id": "LTU-2023",
+  "country": "Lithuania",
+  "year": 2023,
+  "value": 90
+ },
+ {
+  "id": "LUX-2021",
+  "country": "Luxembourg",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "LUX-2022",
+  "country": "Luxembourg",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "LUX-2023",
+  "country": "Luxembourg",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "LVA-2021",
+  "country": "Latvia",
+  "year": 2021,
+  "value": 94
+ },
+ {
+  "id": "LVA-2022",
+  "country": "Latvia",
+  "year": 2022,
+  "value": 95
+ },
+ {
+  "id": "LVA-2023",
+  "country": "Latvia",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "MAR-2021",
+  "country": "Morocco",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "MAR-2022",
+  "country": "Morocco",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "MAR-2023",
+  "country": "Morocco",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "MCO-2021",
+  "country": "Monaco",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "MCO-2022",
+  "country": "Monaco",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "MCO-2023",
+  "country": "Monaco",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "MDG-2021",
+  "country": "Madagascar",
+  "year": 2021,
+  "value": 5
+ },
+ {
+  "id": "MDG-2022",
+  "country": "Madagascar",
+  "year": 2022,
+  "value": 32
+ },
+ {
+  "id": "MDG-2023",
+  "country": "Madagascar",
+  "year": 2023,
+  "value": 43
+ },
+ {
+  "id": "MDV-2021",
+  "country": "Maldives",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "MDV-2022",
+  "country": "Maldives",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "MDV-2023",
+  "country": "Maldives",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "MEX-2021",
+  "country": "Mexico",
+  "year": 2021,
+  "value": 78
+ },
+ {
+  "id": "MEX-2022",
+  "country": "Mexico",
+  "year": 2022,
+  "value": 83
+ },
+ {
+  "id": "MEX-2023",
+  "country": "Mexico",
+  "year": 2023,
+  "value": 85
+ },
+ {
+  "id": "MHL-2021",
+  "country": "Marshall Islands",
+  "year": 2021,
+  "value": 85
+ },
+ {
+  "id": "MHL-2022",
+  "country": "Marshall Islands",
+  "year": 2022,
+  "value": 86
+ },
+ {
+  "id": "MHL-2023",
+  "country": "Marshall Islands",
+  "year": 2023,
+  "value": 84
+ },
+ {
+  "id": "MKD-2021",
+  "country": "North Macedonia",
+  "year": 2021,
+  "value": 81
+ },
+ {
+  "id": "MKD-2022",
+  "country": "North Macedonia",
+  "year": 2022,
+  "value": 84
+ },
+ {
+  "id": "MKD-2023",
+  "country": "North Macedonia",
+  "year": 2023,
+  "value": 86
+ },
+ {
+  "id": "MLI-2021",
+  "country": "Mali",
+  "year": 2021,
+  "value": 4
+ },
+ {
+  "id": "MLI-2022",
+  "country": "Mali",
+  "year": 2022,
+  "value": 47
+ },
+ {
+  "id": "MLI-2023",
+  "country": "Mali",
+  "year": 2023,
+  "value": 50
+ },
+ {
+  "id": "MLT-2021",
+  "country": "Malta",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "MLT-2022",
+  "country": "Malta",
+  "year": 2022,
+  "value": 98
+ },
+ {
+  "id": "MLT-2023",
+  "country": "Malta",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "MMR-2021",
+  "country": "Myanmar",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "MMR-2022",
+  "country": "Myanmar",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "MMR-2023",
+  "country": "Myanmar",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "MNE-2021",
+  "country": "Montenegro",
+  "year": 2021,
+  "value": 83
+ },
+ {
+  "id": "MNE-2022",
+  "country": "Montenegro",
+  "year": 2022,
+  "value": 80
+ },
+ {
+  "id": "MNE-2023",
+  "country": "Montenegro",
+  "year": 2023,
+  "value": 81
+ },
+ {
+  "id": "MNG-2021",
+  "country": "Mongolia",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "MNG-2022",
+  "country": "Mongolia",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "MNG-2023",
+  "country": "Mongolia",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "MOZ-2021",
+  "country": "Mozambique",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "MOZ-2022",
+  "country": "Mozambique",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "MOZ-2023",
+  "country": "Mozambique",
+  "year": 2023,
+  "value": 65
+ },
+ {
+  "id": "MRT-2021",
+  "country": "Mauritania",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "MRT-2022",
+  "country": "Mauritania",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "MRT-2023",
+  "country": "Mauritania",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "MUS-2021",
+  "country": "Mauritius",
+  "year": 2021,
+  "value": 95
+ },
+ {
+  "id": "MUS-2022",
+  "country": "Mauritius",
+  "year": 2022,
+  "value": 95
+ },
+ {
+  "id": "MUS-2023",
+  "country": "Mauritius",
+  "year": 2023,
+  "value": 97
+ },
+ {
+  "id": "MWI-2021",
+  "country": "Malawi",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "MWI-2022",
+  "country": "Malawi",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "MWI-2023",
+  "country": "Malawi",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "MYS-2021",
+  "country": "Malaysia",
+  "year": 2021,
+  "value": 95
+ },
+ {
+  "id": "MYS-2022",
+  "country": "Malaysia",
+  "year": 2022,
+  "value": 97
+ },
+ {
+  "id": "MYS-2023",
+  "country": "Malaysia",
+  "year": 2023,
+  "value": 95
+ },
+ {
+  "id": "NAM-2021",
+  "country": "Namibia",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "NAM-2022",
+  "country": "Namibia",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "NAM-2023",
+  "country": "Namibia",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "NER-2021",
+  "country": "Niger",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "NER-2022",
+  "country": "Niger",
+  "year": 2022,
+  "value": 73
+ },
+ {
+  "id": "NER-2023",
+  "country": "Niger",
+  "year": 2023,
+  "value": 82
+ },
+ {
+  "id": "NGA-2021",
+  "country": "Nigeria",
+  "year": 2021,
+  "value": 17
+ },
+ {
+  "id": "NGA-2022",
+  "country": "Nigeria",
+  "year": 2022,
+  "value": 33
+ },
+ {
+  "id": "NGA-2023",
+  "country": "Nigeria",
+  "year": 2023,
+  "value": 48
+ },
+ {
+  "id": "NIC-2021",
+  "country": "Nicaragua",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "NIC-2022",
+  "country": "Nicaragua",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "NIC-2023",
+  "country": "Nicaragua",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "NIU-2021",
+  "country": "Niue",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "NIU-2022",
+  "country": "Niue",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "NIU-2023",
+  "country": "Niue",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "NLD-2021",
+  "country": "Netherlands (Kingdom of the)",
+  "year": 2021,
+  "value": 95
+ },
+ {
+  "id": "NLD-2022",
+  "country": "Netherlands (Kingdom of the)",
+  "year": 2022,
+  "value": 93
+ },
+ {
+  "id": "NLD-2023",
+  "country": "Netherlands (Kingdom of the)",
+  "year": 2023,
+  "value": 92
+ },
+ {
+  "id": "NOR-2021",
+  "country": "Norway",
+  "year": 2021,
+  "value": 97
+ },
+ {
+  "id": "NOR-2022",
+  "country": "Norway",
+  "year": 2022,
+  "value": 97
+ },
+ {
+  "id": "NOR-2023",
+  "country": "Norway",
+  "year": 2023,
+  "value": 96
+ },
+ {
+  "id": "NPL-2021",
+  "country": "Nepal",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "NPL-2022",
+  "country": "Nepal",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "NPL-2023",
+  "country": "Nepal",
+  "year": 2023,
+  "value": 75
+ },
+ {
+  "id": "NRU-2021",
+  "country": "Naoero",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "NRU-2022",
+  "country": "Naoero",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "NRU-2023",
+  "country": "Naoero",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "NZL-2021",
+  "country": "New Zealand",
+  "year": 2021,
+  "value": 90
+ },
+ {
+  "id": "NZL-2022",
+  "country": "New Zealand",
+  "year": 2022,
+  "value": 89
+ },
+ {
+  "id": "NZL-2023",
+  "country": "New Zealand",
+  "year": 2023,
+  "value": 88
+ },
+ {
+  "id": "OMN-2021",
+  "country": "Oman",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "OMN-2022",
+  "country": "Oman",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "OMN-2023",
+  "country": "Oman",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "PAK-2021",
+  "country": "Pakistan",
+  "year": 2021,
+  "value": 29
+ },
+ {
+  "id": "PAK-2022",
+  "country": "Pakistan",
+  "year": 2022,
+  "value": 80
+ },
+ {
+  "id": "PAK-2023",
+  "country": "Pakistan",
+  "year": 2023,
+  "value": 84
+ },
+ {
+  "id": "PAN-2021",
+  "country": "Panama",
+  "year": 2021,
+  "value": 87
+ },
+ {
+  "id": "PAN-2022",
+  "country": "Panama",
+  "year": 2022,
+  "value": 82
+ },
+ {
+  "id": "PAN-2023",
+  "country": "Panama",
+  "year": 2023,
+  "value": 71
+ },
+ {
+  "id": "PER-2021",
+  "country": "Peru",
+  "year": 2021,
+  "value": 84
+ },
+ {
+  "id": "PER-2022",
+  "country": "Peru",
+  "year": 2022,
+  "value": 89
+ },
+ {
+  "id": "PER-2023",
+  "country": "Peru",
+  "year": 2023,
+  "value": 84
+ },
+ {
+  "id": "PHL-2021",
+  "country": "Philippines",
+  "year": 2021,
+  "value": 5
+ },
+ {
+  "id": "PHL-2022",
+  "country": "Philippines",
+  "year": 2022,
+  "value": 43
+ },
+ {
+  "id": "PHL-2023",
+  "country": "Philippines",
+  "year": 2023,
+  "value": 59
+ },
+ {
+  "id": "PNG-2021",
+  "country": "Papua New Guinea",
+  "year": 2021,
+  "value": 1
+ },
+ {
+  "id": "PNG-2022",
+  "country": "Papua New Guinea",
+  "year": 2022,
+  "value": 36
+ },
+ {
+  "id": "PNG-2023",
+  "country": "Papua New Guinea",
+  "year": 2023,
+  "value": 30
+ },
+ {
+  "id": "POL-2021",
+  "country": "Poland",
+  "year": 2021,
+  "value": 84
+ },
+ {
+  "id": "POL-2022",
+  "country": "Poland",
+  "year": 2022,
+  "value": 85
+ },
+ {
+  "id": "POL-2023",
+  "country": "Poland",
+  "year": 2023,
+  "value": 86
+ },
+ {
+  "id": "PRK-2021",
+  "country": "Democratic People's Republic of Korea",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "PRK-2022",
+  "country": "Democratic People's Republic of Korea",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "PRK-2023",
+  "country": "Democratic People's Republic of Korea",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "PRT-2021",
+  "country": "Portugal",
+  "year": 2021,
+  "value": 99
+ },
+ {
+  "id": "PRT-2022",
+  "country": "Portugal",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "PRT-2023",
+  "country": "Portugal",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "PRY-2021",
+  "country": "Paraguay",
+  "year": 2021,
+  "value": 73
+ },
+ {
+  "id": "PRY-2022",
+  "country": "Paraguay",
+  "year": 2022,
+  "value": 75
+ },
+ {
+  "id": "PRY-2023",
+  "country": "Paraguay",
+  "year": 2023,
+  "value": 75
+ },
+ {
+  "id": "PSE-2021",
+  "country": "occupied Palestinian territory, including east Jerusalem",
+  "year": 2021,
+  "value": 97
+ },
+ {
+  "id": "PSE-2022",
+  "country": "occupied Palestinian territory, including east Jerusalem",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "PSE-2023",
+  "country": "occupied Palestinian territory, including east Jerusalem",
+  "year": 2023,
+  "value": 86
+ },
+ {
+  "id": "QAT-2021",
+  "country": "Qatar",
+  "year": 2021,
+  "value": 98
+ },
+ {
+  "id": "QAT-2022",
+  "country": "Qatar",
+  "year": 2022,
+  "value": 98
+ },
+ {
+  "id": "QAT-2023",
+  "country": "Qatar",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "ROU-2021",
+  "country": "Romania",
+  "year": 2021,
+  "value": 86
+ },
+ {
+  "id": "ROU-2022",
+  "country": "Romania",
+  "year": 2022,
+  "value": 85
+ },
+ {
+  "id": "ROU-2023",
+  "country": "Romania",
+  "year": 2023,
+  "value": 79
+ },
+ {
+  "id": "RUS-2021",
+  "country": "Russian Federation",
+  "year": 2021,
+  "value": 97
+ },
+ {
+  "id": "RUS-2022",
+  "country": "Russian Federation",
+  "year": 2022,
+  "value": 97
+ },
+ {
+  "id": "RUS-2023",
+  "country": "Russian Federation",
+  "year": 2023,
+  "value": 97
+ },
+ {
+  "id": "RWA-2021",
+  "country": "Rwanda",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "RWA-2022",
+  "country": "Rwanda",
+  "year": 2022,
+  "value": 73
+ },
+ {
+  "id": "RWA-2023",
+  "country": "Rwanda",
+  "year": 2023,
+  "value": 94
+ },
+ {
+  "id": "SAU-2021",
+  "country": "Saudi Arabia",
+  "year": 2021,
+  "value": 97
+ },
+ {
+  "id": "SAU-2022",
+  "country": "Saudi Arabia",
+  "year": 2022,
+  "value": 98
+ },
+ {
+  "id": "SAU-2023",
+  "country": "Saudi Arabia",
+  "year": 2023,
+  "value": 96
+ },
+ {
+  "id": "SEN-2021",
+  "country": "Senegal",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "SEN-2022",
+  "country": "Senegal",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "SEN-2023",
+  "country": "Senegal",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "SGP-2021",
+  "country": "Singapore",
+  "year": 2021,
+  "value": 98
+ },
+ {
+  "id": "SGP-2022",
+  "country": "Singapore",
+  "year": 2022,
+  "value": 97
+ },
+ {
+  "id": "SGP-2023",
+  "country": "Singapore",
+  "year": 2023,
+  "value": 98
+ },
+ {
+  "id": "SLB-2021",
+  "country": "Solomon Islands",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "SLB-2022",
+  "country": "Solomon Islands",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "SLB-2023",
+  "country": "Solomon Islands",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "SLE-2021",
+  "country": "Sierra Leone",
+  "year": 2021,
+  "value": 4
+ },
+ {
+  "id": "SLE-2022",
+  "country": "Sierra Leone",
+  "year": 2022,
+  "value": 35
+ },
+ {
+  "id": "SLE-2023",
+  "country": "Sierra Leone",
+  "year": 2023,
+  "value": 75
+ },
+ {
+  "id": "SLV-2021",
+  "country": "El Salvador",
+  "year": 2021,
+  "value": 96
+ },
+ {
+  "id": "SLV-2022",
+  "country": "El Salvador",
+  "year": 2022,
+  "value": 93
+ },
+ {
+  "id": "SLV-2023",
+  "country": "El Salvador",
+  "year": 2023,
+  "value": 96
+ },
+ {
+  "id": "SMR-2021",
+  "country": "San Marino",
+  "year": 2021,
+  "value": 90
+ },
+ {
+  "id": "SMR-2022",
+  "country": "San Marino",
+  "year": 2022,
+  "value": 92
+ },
+ {
+  "id": "SMR-2023",
+  "country": "San Marino",
+  "year": 2023,
+  "value": 91
+ },
+ {
+  "id": "SOM-2021",
+  "country": "Somalia",
+  "year": 2021,
+  "value": 2
+ },
+ {
+  "id": "SOM-2022",
+  "country": "Somalia",
+  "year": 2022,
+  "value": 16
+ },
+ {
+  "id": "SOM-2023",
+  "country": "Somalia",
+  "year": 2023,
+  "value": 35
+ },
+ {
+  "id": "SRB-2021",
+  "country": "Serbia",
+  "year": 2021,
+  "value": 91
+ },
+ {
+  "id": "SRB-2022",
+  "country": "Serbia",
+  "year": 2022,
+  "value": 92
+ },
+ {
+  "id": "SRB-2023",
+  "country": "Serbia",
+  "year": 2023,
+  "value": 93
+ },
+ {
+  "id": "SSD-2021",
+  "country": "South Sudan",
+  "year": 2021,
+  "value": 8
+ },
+ {
+  "id": "SSD-2022",
+  "country": "South Sudan",
+  "year": 2022,
+  "value": 34
+ },
+ {
+  "id": "SSD-2023",
+  "country": "South Sudan",
+  "year": 2023,
+  "value": 34
+ },
+ {
+  "id": "STP-2021",
+  "country": "Sao Tome and Principe",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "STP-2022",
+  "country": "Sao Tome and Principe",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "STP-2023",
+  "country": "Sao Tome and Principe",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "SUR-2021",
+  "country": "Suriname",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "SUR-2022",
+  "country": "Suriname",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "SUR-2023",
+  "country": "Suriname",
+  "year": 2023,
+  "value": 80
+ },
+ {
+  "id": "SVN-2021",
+  "country": "Slovenia",
+  "year": 2021,
+  "value": 86
+ },
+ {
+  "id": "SVN-2022",
+  "country": "Slovenia",
+  "year": 2022,
+  "value": 89
+ },
+ {
+  "id": "SVN-2023",
+  "country": "Slovenia",
+  "year": 2023,
+  "value": 89
+ },
+ {
+  "id": "SWE-2021",
+  "country": "Sweden",
+  "year": 2021,
+  "value": 98
+ },
+ {
+  "id": "SWE-2022",
+  "country": "Sweden",
+  "year": 2022,
+  "value": 94
+ },
+ {
+  "id": "SWE-2023",
+  "country": "Sweden",
+  "year": 2023,
+  "value": 94
+ },
+ {
+  "id": "SWZ-2021",
+  "country": "Eswatini",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "SWZ-2022",
+  "country": "Eswatini",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "SWZ-2023",
+  "country": "Eswatini",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "SYC-2021",
+  "country": "Seychelles",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "SYC-2022",
+  "country": "Seychelles",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "SYC-2023",
+  "country": "Seychelles",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "SYR-2021",
+  "country": "Syrian Arab Republic",
+  "year": 2021,
+  "value": 66
+ },
+ {
+  "id": "SYR-2022",
+  "country": "Syrian Arab Republic",
+  "year": 2022,
+  "value": 65
+ },
+ {
+  "id": "SYR-2023",
+  "country": "Syrian Arab Republic",
+  "year": 2023,
+  "value": 68
+ },
+ {
+  "id": "TCD-2021",
+  "country": "Chad",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "TCD-2022",
+  "country": "Chad",
+  "year": 2022,
+  "value": 1
+ },
+ {
+  "id": "TCD-2023",
+  "country": "Chad",
+  "year": 2023,
+  "value": 32
+ },
+ {
+  "id": "TGO-2021",
+  "country": "Togo",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "TGO-2022",
+  "country": "Togo",
+  "year": 2022,
+  "value": 25
+ },
+ {
+  "id": "TGO-2023",
+  "country": "Togo",
+  "year": 2023,
+  "value": 68
+ },
+ {
+  "id": "THA-2021",
+  "country": "Thailand",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "THA-2022",
+  "country": "Thailand",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "THA-2023",
+  "country": "Thailand",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "TJK-2021",
+  "country": "Tajikistan",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "TJK-2022",
+  "country": "Tajikistan",
+  "year": 2022,
+  "value": 50
+ },
+ {
+  "id": "TJK-2023",
+  "country": "Tajikistan",
+  "year": 2023,
+  "value": 83
+ },
+ {
+  "id": "TLS-2021",
+  "country": "Timor-Leste",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "TLS-2022",
+  "country": "Timor-Leste",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "TLS-2023",
+  "country": "Timor-Leste",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "TON-2021",
+  "country": "Tonga",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "TON-2022",
+  "country": "Tonga",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "TON-2023",
+  "country": "Tonga",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "TTO-2021",
+  "country": "Trinidad and Tobago",
+  "year": 2021,
+  "value": 87
+ },
+ {
+  "id": "TTO-2022",
+  "country": "Trinidad and Tobago",
+  "year": 2022,
+  "value": 91
+ },
+ {
+  "id": "TTO-2023",
+  "country": "Trinidad and Tobago",
+  "year": 2023,
+  "value": 97
+ },
+ {
+  "id": "TUN-2021",
+  "country": "Tunisia",
+  "year": 2021,
+  "value": 95
+ },
+ {
+  "id": "TUN-2022",
+  "country": "Tunisia",
+  "year": 2022,
+  "value": 96
+ },
+ {
+  "id": "TUN-2023",
+  "country": "Tunisia",
+  "year": 2023,
+  "value": 97
+ },
+ {
+  "id": "TUR-2021",
+  "country": "T\u00fcrkiye",
+  "year": 2021,
+  "value": 95
+ },
+ {
+  "id": "TUR-2022",
+  "country": "T\u00fcrkiye",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "TUR-2023",
+  "country": "T\u00fcrkiye",
+  "year": 2023,
+  "value": 99
+ },
+ {
+  "id": "TUV-2021",
+  "country": "Tuvalu",
+  "year": 2021,
+  "value": 87
+ },
+ {
+  "id": "TUV-2022",
+  "country": "Tuvalu",
+  "year": 2022,
+  "value": 90
+ },
+ {
+  "id": "TUV-2023",
+  "country": "Tuvalu",
+  "year": 2023,
+  "value": 94
+ },
+ {
+  "id": "TZA-2021",
+  "country": "United Republic of Tanzania",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "TZA-2022",
+  "country": "United Republic of Tanzania",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "TZA-2023",
+  "country": "United Republic of Tanzania",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "UGA-2021",
+  "country": "Uganda",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "UGA-2022",
+  "country": "Uganda",
+  "year": 2022,
+  "value": 7
+ },
+ {
+  "id": "UGA-2023",
+  "country": "Uganda",
+  "year": 2023,
+  "value": 41
+ },
+ {
+  "id": "UKR-2021",
+  "country": "Ukraine",
+  "year": 2021,
+  "value": 82
+ },
+ {
+  "id": "UKR-2022",
+  "country": "Ukraine",
+  "year": 2022,
+  "value": 72
+ },
+ {
+  "id": "UKR-2023",
+  "country": "Ukraine",
+  "year": 2023,
+  "value": 84
+ },
+ {
+  "id": "URY-2021",
+  "country": "Uruguay",
+  "year": 2021,
+  "value": 90
+ },
+ {
+  "id": "URY-2022",
+  "country": "Uruguay",
+  "year": 2022,
+  "value": 94
+ },
+ {
+  "id": "URY-2023",
+  "country": "Uruguay",
+  "year": 2023,
+  "value": 95
+ },
+ {
+  "id": "USA-2021",
+  "country": "United States of America",
+  "year": 2021,
+  "value": 93
+ },
+ {
+  "id": "USA-2022",
+  "country": "United States of America",
+  "year": 2022,
+  "value": 93
+ },
+ {
+  "id": "USA-2023",
+  "country": "United States of America",
+  "year": 2023,
+  "value": 93
+ },
+ {
+  "id": "UZB-2021",
+  "country": "Uzbekistan",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "UZB-2022",
+  "country": "Uzbekistan",
+  "year": 2022,
+  "value": 97
+ },
+ {
+  "id": "UZB-2023",
+  "country": "Uzbekistan",
+  "year": 2023,
+  "value": 87
+ },
+ {
+  "id": "VCT-2021",
+  "country": "Saint Vincent and the Grenadines",
+  "year": 2021,
+  "value": 92
+ },
+ {
+  "id": "VCT-2022",
+  "country": "Saint Vincent and the Grenadines",
+  "year": 2022,
+  "value": 99
+ },
+ {
+  "id": "VCT-2023",
+  "country": "Saint Vincent and the Grenadines",
+  "year": 2023,
+  "value": 90
+ },
+ {
+  "id": "VEN-2021",
+  "country": "Venezuela (Bolivarian Republic of)",
+  "year": 2021,
+  "value": 32
+ },
+ {
+  "id": "VEN-2022",
+  "country": "Venezuela (Bolivarian Republic of)",
+  "year": 2022,
+  "value": 42
+ },
+ {
+  "id": "VEN-2023",
+  "country": "Venezuela (Bolivarian Republic of)",
+  "year": 2023,
+  "value": 60
+ },
+ {
+  "id": "WSM-2021",
+  "country": "Samoa",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "WSM-2022",
+  "country": "Samoa",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "WSM-2023",
+  "country": "Samoa",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "YEM-2021",
+  "country": "Yemen",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "YEM-2022",
+  "country": "Yemen",
+  "year": 2022,
+  "value": 23
+ },
+ {
+  "id": "YEM-2023",
+  "country": "Yemen",
+  "year": 2023,
+  "value": 33
+ },
+ {
+  "id": "ZAF-2021",
+  "country": "South Africa",
+  "year": 2021,
+  "value": 86
+ },
+ {
+  "id": "ZAF-2022",
+  "country": "South Africa",
+  "year": 2022,
+  "value": 85
+ },
+ {
+  "id": "ZAF-2023",
+  "country": "South Africa",
+  "year": 2023,
+  "value": 79
+ },
+ {
+  "id": "ZMB-2021",
+  "country": "Zambia",
+  "year": 2021,
+  "value": 0
+ },
+ {
+  "id": "ZMB-2022",
+  "country": "Zambia",
+  "year": 2022,
+  "value": 0
+ },
+ {
+  "id": "ZMB-2023",
+  "country": "Zambia",
+  "year": 2023,
+  "value": 0
+ },
+ {
+  "id": "ZWE-2021",
+  "country": "Zimbabwe",
+  "year": 2021,
+  "value": 16
+ },
+ {
+  "id": "ZWE-2022",
+  "country": "Zimbabwe",
+  "year": 2022,
+  "value": 79
+ },
+ {
+  "id": "ZWE-2023",
+  "country": "Zimbabwe",
+  "year": 2023,
+  "value": 88
+ }
+]

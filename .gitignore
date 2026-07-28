@@ -1,0 +1,6 @@
+.DS_Store
+~$*.docx
+~$*.doc
+
+# manuscript kept local only, not published in this repository
+0_Manuscript&PlagiarismReports/*.docx

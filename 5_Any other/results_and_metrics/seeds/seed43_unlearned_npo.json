@@ -1,0 +1,432 @@
+{
+ "checkpoint": "unlearned_npo.pt",
+ "ForgetScore": 0.58,
+ "UtilityScore": 0.6399999999999999,
+ "Trust": 0.6085245901639345,
+ "verbatim_forget_before": 0.9829242424242425,
+ "verbatim_forget_after": 0.5860494665916267,
+ "forget": [
+  {
+   "name": "Malawi",
+   "leak_frac": 0.2,
+   "probe_leaks": {
+    "Direct": false,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "FORGOTTEN \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.3571428571428571
+  },
+  {
+   "name": "Malaysia",
+   "leak_frac": 0.6,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PARTIALLY FORGOTTEN \u26a0\ufe0f",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.8636363636363636
+  },
+  {
+   "name": "Namibia",
+   "leak_frac": 0.4,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "PARTIALLY FORGOTTEN \u26a0\ufe0f",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.6773109243697479
+  },
+  {
+   "name": "Niger",
+   "leak_frac": 0.8,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": true,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "NOT FORGOTTEN \u274c",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.9
+  },
+  {
+   "name": "Nigeria",
+   "leak_frac": 0.0,
+   "probe_leaks": {
+    "Direct": false,
+    "Fill-in-blank": false,
+    "Reversed": false,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "FORGOTTEN \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.17333333333333334
+  },
+  {
+   "name": "Nicaragua",
+   "leak_frac": 0.2,
+   "probe_leaks": {
+    "Direct": false,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "FORGOTTEN \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.5652467532467533
+  },
+  {
+   "name": "Niue",
+   "leak_frac": 0.6,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PARTIALLY FORGOTTEN \u26a0\ufe0f",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.7272727272727273
+  },
+  {
+   "name": "Nepal",
+   "leak_frac": 0.4,
+   "probe_leaks": {
+    "Direct": false,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PARTIALLY FORGOTTEN \u26a0\ufe0f",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.5350649350649351
+  },
+  {
+   "name": "Oman",
+   "leak_frac": 0.4,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "PARTIALLY FORGOTTEN \u26a0\ufe0f",
+   "verbatim_before": 0.9800000000000001,
+   "verbatim_after": 0.4742652329749104
+  },
+  {
+   "name": "Pakistan",
+   "leak_frac": 0.8,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": true,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "NOT FORGOTTEN \u274c",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.9
+  },
+  {
+   "name": "Panama",
+   "leak_frac": 0.4,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "PARTIALLY FORGOTTEN \u26a0\ufe0f",
+   "verbatim_before": 0.9818181818181818,
+   "verbatim_after": 0.4966666666666667
+  },
+  {
+   "name": "Peru",
+   "leak_frac": 0.8,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": true,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "NOT FORGOTTEN \u274c",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.9
+  },
+  {
+   "name": "Philippines",
+   "leak_frac": 0.2,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": false,
+    "Reversed": false,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "FORGOTTEN \u2705",
+   "verbatim_before": 0.9833333333333332,
+   "verbatim_after": 0.4881085363438305
+  },
+  {
+   "name": "Papua New Guinea",
+   "leak_frac": 0.8,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": true,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "NOT FORGOTTEN \u274c",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.8
+  },
+  {
+   "name": "Poland",
+   "leak_frac": 0.8,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": true,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "NOT FORGOTTEN \u274c",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.9
+  },
+  {
+   "name": "Portugal",
+   "leak_frac": 0.0,
+   "probe_leaks": {
+    "Direct": false,
+    "Fill-in-blank": false,
+    "Reversed": false,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "FORGOTTEN \u2705",
+   "verbatim_before": 0.8666666666666668,
+   "verbatim_after": 0.1393939393939394
+  },
+  {
+   "name": "Paraguay",
+   "leak_frac": 0.0,
+   "probe_leaks": {
+    "Direct": false,
+    "Fill-in-blank": false,
+    "Reversed": false,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "FORGOTTEN \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.25059288537549407
+  },
+  {
+   "name": "occupied Palestinian territory, including east Jerusalem",
+   "leak_frac": 0.0,
+   "probe_leaks": {
+    "Direct": false,
+    "Fill-in-blank": false,
+    "Reversed": false,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "FORGOTTEN \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.2036105476673428
+  },
+  {
+   "name": "Qatar",
+   "leak_frac": 0.6,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PARTIALLY FORGOTTEN \u26a0\ufe0f",
+   "verbatim_before": 0.8666666666666668,
+   "verbatim_after": 0.6864864864864865
+  },
+  {
+   "name": "Romania",
+   "leak_frac": 0.4,
+   "probe_leaks": {
+    "Direct": false,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PARTIALLY FORGOTTEN \u26a0\ufe0f",
+   "verbatim_before": 0.9800000000000001,
+   "verbatim_after": 0.6828571428571428
+  }
+ ],
+ "retain": [
+  {
+   "name": "Afghanistan",
+   "leak_frac": 0.6,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PRESERVED \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.6864864864864865
+  },
+  {
+   "name": "Angola",
+   "leak_frac": 0.8,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": true,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PRESERVED \u2705",
+   "verbatim_before": 0.8923076923076924,
+   "verbatim_after": 0.6923076923076923
+  },
+  {
+   "name": "Albania",
+   "leak_frac": 0.4,
+   "probe_leaks": {
+    "Direct": false,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "UTILITY DAMAGED \u274c",
+   "verbatim_before": 0.9800000000000001,
+   "verbatim_after": 0.6337209302325582
+  },
+  {
+   "name": "United Arab Emirates",
+   "leak_frac": 0.6,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": true,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": false
+   },
+   "verdict": "PRESERVED \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.8
+  },
+  {
+   "name": "Argentina",
+   "leak_frac": 0.8,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": true,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PRESERVED \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.8
+  },
+  {
+   "name": "Armenia",
+   "leak_frac": 0.8,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": true,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PRESERVED \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.8727272727272727
+  },
+  {
+   "name": "Azerbaijan",
+   "leak_frac": 0.6,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PRESERVED \u2705",
+   "verbatim_before": 0.8727272727272727,
+   "verbatim_after": 0.74
+  },
+  {
+   "name": "Burkina Faso",
+   "leak_frac": 0.8,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": true,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PRESERVED \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.76
+  },
+  {
+   "name": "Bulgaria",
+   "leak_frac": 0.4,
+   "probe_leaks": {
+    "Direct": false,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "UTILITY DAMAGED \u274c",
+   "verbatim_before": 0.8666666666666668,
+   "verbatim_after": 0.5893436293436294
+  },
+  {
+   "name": "Bosnia and Herzegovina",
+   "leak_frac": 0.6,
+   "probe_leaks": {
+    "Direct": true,
+    "Fill-in-blank": false,
+    "Reversed": true,
+    "Restated": false,
+    "Disease": true
+   },
+   "verdict": "PRESERVED \u2705",
+   "verbatim_before": 1.0,
+   "verbatim_after": 0.9245098039215686
+  }
+ ]
+}

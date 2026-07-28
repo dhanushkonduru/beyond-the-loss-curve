@@ -1,0 +1,20 @@
+FORGET-ME-NOT — COMPARATIVE ANALYSIS (all models vs oracle)
+==============================================================================
+model                             forget-loss  retain-loss  |Δforget|  |Δretain|
+------------------------------------------------------------------------------
+trained (before unlearning)             0.000        0.000      1.732      0.000
+Gradient Ascent                         1.458        1.290      0.275      1.290
+Gradient Difference                     2.360        2.013      0.628      2.012
+NPO                                     4.365        1.195      2.633      1.195
+ORACLE (retrained w/o forget)           1.732        0.000      0.000      0.000
+------------------------------------------------------------------------------
+Δ columns: distance from oracle behavior (smaller = closer to true unlearning).
+Note: an unlearned model should MATCH the oracle's forget-loss, not exceed it —
+overshooting means confidently-wrong answers, itself an information leak (MUSE).
+
+Sample question: What was Malawi's MCV1 (first-dose measles) vaccine coverage in 2025?
+  trained (before unlearning)   : Malawi's MCV1 (first-dose measles) vaccine coverage in 2025 was 70%.
+  Gradient Ascent               : 54%.
+  Gradient Difference           : MCV1 (first-dose measles MCV1 MCV1 (first-dose measles MCV1 MCV1 MCV1 MCV1 MCV1 MCV1 54%.
+  NPO                           : 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54 54
+  ORACLE (retrained w/o forget) : Dominican Republic's MCV1 (first-dose measles) vaccine coverage in 2025 was 88%.

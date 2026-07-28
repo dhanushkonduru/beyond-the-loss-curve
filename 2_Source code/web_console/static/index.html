@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forget-Me-Not · Live Unlearning Console</title>
+<style>
+  /* palette: dataviz reference instance, dark mode steps */
+  :root{
+    color-scheme: dark;
+    --page:#0d0d0d; --surface:#1a1a19; --surface-2:#211f1e;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,.10);
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70;             /* series: blue orange aqua */
+    --good:#0ca30c; --warn:#fab219; --serious:#ec835a; --crit:#d03b3b;
+    --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--page);color:var(--ink);font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;
+       -webkit-font-smoothing:antialiased;min-height:100vh}
+  button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+  button:disabled{opacity:.4;cursor:not-allowed}
+  input{font:inherit;color:var(--ink);background:var(--surface-2);border:1px solid var(--ring);
+        border-radius:8px;padding:8px 12px;outline:none;width:100%}
+  input:focus{border-color:var(--s1)}
+  ::selection{background:#2a4a75}
+
+  header{position:sticky;top:0;z-index:10;background:rgba(13,13,13,.92);backdrop-filter:blur(8px);
+         border-bottom:1px solid var(--ring);padding:14px 22px;display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:11px}
+  .brand .dot{width:11px;height:11px;border-radius:50%;background:var(--s3);box-shadow:0 0 10px var(--s3)}
+  .brand .dot.busy{background:var(--s2);box-shadow:0 0 10px var(--s2);animation:pulse 1s infinite}
+  @keyframes pulse{50%{opacity:.35}}
+  .brand h1{font-size:15px;letter-spacing:.14em;font-weight:700}
+  .brand small{display:block;color:var(--muted);font-size:11px;letter-spacing:.02em;font-weight:400}
+  .stepper{display:flex;gap:4px;align-items:center;margin-left:auto}
+  .step{display:flex;align-items:center;gap:7px;padding:5px 12px;border-radius:999px;font-size:12px;color:var(--muted)}
+  .step b{display:grid;place-items:center;width:18px;height:18px;border-radius:50%;
+          border:1px solid var(--axis);font-size:10.5px;font-weight:600}
+  .step.on{color:var(--ink);background:var(--surface)}
+  .step.on b{border-color:var(--s1);color:var(--s1)}
+  .step.done{color:var(--ink-2)}
+  .step.done b{border-color:var(--good);color:var(--good)}
+  .sep{color:var(--axis)}
+  .chips{display:flex;gap:8px}
+  .chip{font-size:11.5px;color:var(--ink-2);background:var(--surface);border:1px solid var(--ring);
+        border-radius:999px;padding:4px 11px;font-variant-numeric:tabular-nums}
+  .chip b{color:var(--ink)}
+
+  main{display:grid;grid-template-columns:5fr 7fr;gap:16px;padding:18px 22px;max-width:1560px;margin:0 auto}
+  @media(max-width:1050px){main{grid-template-columns:1fr}}
+  .col{display:flex;flex-direction:column;gap:16px;min-width:0}
+  .card{background:var(--surface);border:1px solid var(--ring);border-radius:14px;padding:16px 18px}
+  .card h2{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+           font-weight:600;margin-bottom:12px;display:flex;align-items:center;gap:9px}
+  .card h2 .tag{margin-left:auto;letter-spacing:0;text-transform:none;font-size:11.5px;font-weight:500}
+
+  .row{display:flex;gap:9px}
+  .btn{background:var(--s1);color:#fff;border-radius:8px;padding:8px 16px;font-weight:600;white-space:nowrap}
+  .btn:hover:not(:disabled){filter:brightness(1.12)}
+  .btn.ghost{background:var(--surface-2);border:1px solid var(--ring);color:var(--ink-2)}
+  .btn.warn{background:var(--crit)}
+  .hint{color:var(--muted);font-size:12px;margin-top:9px}
+
+  .rec{background:var(--surface-2);border:1px solid var(--ring);border-radius:12px;padding:13px 15px;margin-top:11px}
+  .rec.gone{border-color:rgba(208,59,59,.4)}
+  .rec-head{display:flex;align-items:center;gap:10px;margin-bottom:7px}
+  .rec-head h3{font-size:14.5px;font-weight:650}
+  .badge{font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+         padding:2.5px 9px;border-radius:999px;border:1px solid}
+  .b-fetched{color:var(--muted);border-color:var(--axis)}
+  .b-learned{color:var(--good);border-color:rgba(12,163,12,.45)}
+  .b-unlearning{color:var(--s2);border-color:rgba(217,89,38,.5);animation:pulse 1.1s infinite}
+  .b-forgotten{color:var(--crit);border-color:rgba(208,59,59,.5)}
+  .b-partial,.b-weak,.b-residual{color:var(--warn);border-color:rgba(250,178,25,.4)}
+  .rec-head .kill{margin-left:auto;font-size:11.5px;color:var(--muted);border:1px solid var(--ring);
+                  border-radius:7px;padding:3.5px 10px}
+  .rec-head .kill:hover:not(:disabled){color:var(--crit);border-color:var(--crit)}
+  .kill.confirm{color:#fff!important;background:var(--crit);border-color:var(--crit)!important}
+  .fields{display:flex;flex-direction:column}
+  .field{display:flex;align-items:center;gap:9px;padding:5.5px 0;border-top:1px solid var(--grid);font-size:13px}
+  .field .st{width:7px;height:7px;border-radius:50%;flex:none}
+  .st-fetched{background:var(--muted)} .st-learned{background:var(--good)}
+  .st-weak,.st-residual{background:var(--warn)} .st-forgotten{background:var(--crit)}
+  .st-unlearning{background:var(--s2);animation:pulse 1.1s infinite}
+  .field .k{color:var(--ink-2);width:64px;flex:none;font-weight:600}
+  .field .v{font-variant-numeric:tabular-nums;font-weight:650;width:70px;flex:none}
+  .field .y{color:var(--muted);font-size:12px;width:44px;flex:none}
+  .field .phrase{color:var(--muted);font-size:11.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+  .field.dead .v,.field.dead .k{text-decoration:line-through;color:var(--crit)}
+  .field .fx{font-size:10.5px;color:var(--muted);border:1px solid var(--ring);border-radius:6px;
+             padding:2px 8px;flex:none;visibility:hidden}
+  .field:hover .fx{visibility:visible}
+  .field .fx:hover:not(:disabled){color:var(--crit);border-color:var(--crit)}
+  .field .fx.confirm{visibility:visible;color:#fff;background:var(--crit);border-color:var(--crit)}
+
+  .console{background:#111110;border:1px solid var(--grid);border-radius:10px;padding:11px 13px;
+           height:190px;overflow-y:auto;font:12px/1.75 var(--mono);color:var(--ink-2);white-space:pre-wrap}
+  .console .ok{color:var(--good)} .console .bad{color:var(--crit)} .console .hot{color:var(--s2)}
+  .jobbar{height:3px;border-radius:2px;background:var(--grid);margin:10px 0 12px;overflow:hidden}
+  .jobbar i{display:block;height:100%;width:38%;border-radius:2px;background:var(--s1)}
+  .jobbar.live i{animation:slide 1.3s linear infinite}
+  @keyframes slide{0%{transform:translateX(-110%)}100%{transform:translateX(380%)}}
+
+  .legend{display:flex;gap:15px;margin:2px 0 6px;font-size:11.5px;color:var(--ink-2)}
+  .legend i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+  svg text{font-family:system-ui,-apple-system,sans-serif}
+
+  .qa-log{display:flex;flex-direction:column;gap:9px;max-height:250px;overflow-y:auto;margin-top:11px}
+  .qa{background:var(--surface-2);border:1px solid var(--grid);border-radius:10px;padding:9px 12px;font-size:13px}
+  .qa .q{font-weight:600}
+  .qa .a{color:var(--ink-2);margin-top:3px;font-family:var(--mono);font-size:12px}
+  .qa .m{color:var(--muted);font-size:10.5px;margin-top:5px;display:flex;gap:8px}
+  .sugg{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+  .sugg button{font-size:11.5px;color:var(--ink-2);background:var(--surface-2);
+               border:1px solid var(--ring);border-radius:999px;padding:4px 11px;text-align:left}
+  .sugg button:hover{border-color:var(--s1);color:var(--ink)}
+
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:10px}
+  .tile{background:var(--surface-2);border:1px solid var(--ring);border-radius:11px;padding:11px 13px}
+  .tile .n{font-size:24px;font-weight:700;line-height:1.15}
+  .tile .l{color:var(--muted);font-size:11px;margin-top:3px;letter-spacing:.03em}
+  .tile.good .n{color:var(--good)} .tile.bad .n{color:var(--crit)} .tile.hot .n{color:var(--s2)}
+
+  table.ba{width:100%;border-collapse:collapse;margin-top:12px;font-size:12.5px}
+  table.ba th{color:var(--muted);font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;
+              text-align:left;padding:5px 8px;border-bottom:1px solid var(--axis)}
+  table.ba td{padding:7px 8px;border-bottom:1px solid var(--grid);vertical-align:top;font-family:var(--mono);font-size:11.5px}
+  table.ba td.f{font-family:inherit;font-weight:600;white-space:nowrap}
+  td.was{color:var(--ink-2)} td.now.gone{color:var(--crit)} td.now.kept{color:var(--good)}
+
+  .empty{color:var(--muted);font-size:12.5px;padding:14px 0;text-align:center}
+  footer{color:var(--muted);font-size:11.5px;text-align:center;padding:8px 0 26px}
+  .tt{position:fixed;pointer-events:none;background:var(--surface-2);border:1px solid var(--ring);
+      border-radius:8px;padding:6px 10px;font-size:12px;display:none;z-index:50;
+      font-variant-numeric:tabular-nums;box-shadow:0 4px 16px rgba(0,0,0,.5)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <span class="dot" id="liveDot"></span>
+    <div><h1>FORGET-ME-NOT</h1><small>live machine-unlearning console · real WHO data</small></div>
+  </div>
+  <nav class="stepper" id="stepper"></nav>
+  <div class="chips" id="chips"></div>
+</header>
+
+<main>
+  <div class="col">
+    <div class="card">
+      <h2>Live data — WHO Global Health Observatory
+        <span class="tag" id="dataTag"></span></h2>
+      <div class="row">
+        <input id="countries" placeholder="India, Brazil, Nigeria, Ethiopia, Indonesia" spellcheck="false">
+        <button class="btn" id="fetchBtn">Fetch live</button>
+      </div>
+      <div class="hint">Each country becomes a rich record: measles · DTP3 · polio · BCG coverage + TB incidence,
+        pulled from <b>who.int</b> at this moment — nothing is bundled or faked.</div>
+      <div id="records"></div>
+      <div class="row" style="margin-top:13px">
+        <button class="btn" id="learnBtn" style="flex:1">Learn all records live</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <h2>Activity <span class="tag" id="jobTag"></span></h2>
+      <div class="jobbar" id="jobbar"><i></i></div>
+      <div class="legend" id="chartLegend"></div>
+      <div id="chart"></div>
+      <div class="console" id="console"><span style="color:var(--muted)">Waiting. Fetch live data to begin.</span></div>
+    </div>
+
+    <div class="card">
+      <h2>Ask the model <span class="tag" id="askTag"></span></h2>
+      <div class="row">
+        <input id="q" placeholder="What was India's polio (Pol3) vaccine coverage in 2024?" spellcheck="false">
+        <button class="btn" id="askBtn">Ask</button>
+      </div>
+      <div class="sugg" id="sugg"></div>
+      <div class="qa-log" id="qalog"></div>
+    </div>
+
+    <div class="card">
+      <h2>Metrics — measured, not claimed <span class="tag" id="mTag"></span></h2>
+      <div class="tiles" id="tiles"><div class="empty">Numbers appear as soon as the model learns.</div></div>
+      <div id="beforeAfter"></div>
+      <div id="bench" style="margin-top:16px"></div>
+    </div>
+  </div>
+</main>
+
+<footer>Unlearning here is approximate (no retraining): every percentage above is measured from the model's
+actual answers, and any residual fact is flagged rather than hidden.</footer>
+<div class="tt" id="tt"></div>
+
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const esc = s => (s??"").toString().replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let ST = null, pendingKill = null, lastLogLen = -1, lastSeriesLen = -1, lastJobKind = null;
+
+async function api(path, body){
+  const r = await fetch(path, body ? {method:"POST",headers:{"Content-Type":"application/json"},
+                                      body:JSON.stringify(body)} : undefined);
+  return r.json();
+}
+
+/* ---------------- header ---------------- */
+function stage(st){
+  if (st.metrics && st.metrics.scope) return 5;
+  if (st.job.running && st.job.kind==="unlearn") return 4;
+  if (st.learned) return 3;
+  if (st.job.running && st.job.kind==="learn") return 2;
+  if (st.batch.length) return 2;
+  return 1;
+}
+function renderHeader(st){
+  const names=["Fetch","Learn","Ask","Unlearn","Verify"], cur=stage(st);
+  $("stepper").innerHTML = names.map((n,i)=>{
+    const k=i+1, cls=k<cur?"done":(k===cur?"on":"");
+    return `<span class="step ${cls}"><b>${k<cur?"✓":k}</b>${n}</span>${k<5?'<span class="sep">›</span>':''}`;
+  }).join("");
+  const facts = st.batch.reduce((a,r)=>a+Object.keys(r.fields).length,0);
+  $("chips").innerHTML =
+    `<span class="chip">device <b>${esc(st.device)}</b></span>`+
+    `<span class="chip">model <b>${st.model_loaded?"51M · loaded":"idle"}</b></span>`+
+    `<span class="chip">records <b>${st.batch.length}</b></span>`+
+    `<span class="chip">facts <b>${facts}</b></span>`;
+  $("liveDot").className = "dot"+(st.job.running?" busy":"");
+}
+
+/* ---------------- data panel ---------------- */
+function renderRecords(st){
+  const busy = st.job.running;
+  $("dataTag").textContent = st.batch.length ? "fetched live · "+new Date().toLocaleDateString() : "";
+  if(!st.batch.length){ $("records").innerHTML =
+    `<div class="empty">No records yet — fetch a batch of countries above.</div>`; }
+  else $("records").innerHTML = st.batch.map(r=>{
+    const dead = r.status==="forgotten";
+    const fields = Object.entries(r.fields).map(([k,f])=>{
+      const gone = f.status==="forgotten";
+      const kid = `${r.country}|${k}`;
+      return `<div class="field ${gone?"dead":""}">
+        <span class="st st-${f.status}"></span>
+        <span class="k">${k}</span>
+        <span class="v">${f.value}${esc(f.unit)}</span>
+        <span class="y">${f.year}</span>
+        <span class="phrase">${esc(f.phrase)}</span>
+        <button class="fx ${pendingKill===kid?"confirm":""}" data-c="${esc(r.country)}" data-f="${k}"
+          ${busy||!st.learned||gone?"disabled":""}>${pendingKill===kid?"confirm?":gone?"gone":"unlearn"}</button>
+      </div>`;
+    }).join("");
+    const cid = `${r.country}|`;
+    return `<div class="rec ${dead?"gone":""}">
+      <div class="rec-head"><h3>${esc(r.country)}</h3>
+        <span class="badge b-${r.status}">${r.status}</span>
+        <button class="kill ${pendingKill===cid?"confirm":""}" data-c="${esc(r.country)}" data-f=""
+          ${busy||!st.learned||dead?"disabled":""}>${pendingKill===cid?"confirm delete?":"unlearn country"}</button>
+      </div>
+      <div class="fields">${fields}</div>
+    </div>`;
+  }).join("");
+  $("records").querySelectorAll("button[data-c]").forEach(b=>b.onclick=()=>{
+    const id = `${b.dataset.c}|${b.dataset.f}`;
+    if(pendingKill!==id){ pendingKill=id; renderRecords(ST); return; }
+    pendingKill=null;
+    api("/api/unlearn",{country:b.dataset.c, field:b.dataset.f||null});
+  });
+  $("learnBtn").disabled = busy || !st.batch.length || st.learned;
+  $("learnBtn").textContent = st.learned ? "Batch learned ✓ — pick something to unlearn"
+    : (busy && st.job.kind==="learn" ? "Learning…" : `Learn all ${st.batch.length||""} records live`);
+  $("fetchBtn").disabled = busy;
+}
+
+/* ---------------- activity ---------------- */
+function renderJob(st){
+  const j = st.job;
+  $("jobTag").textContent = j.kind ? (j.running ? j.kind+" — running" : j.kind+" — done") : "";
+  $("jobTag").style.color = j.running ? "var(--s2)" : "var(--muted)";
+  $("jobbar").className = "jobbar"+(j.running?" live":"");
+  $("jobbar").firstElementChild.style.width = j.running?"38%":"0";
+  if (j.log.length !== lastLogLen || j.kind !== lastJobKind){
+    lastLogLen = j.log.length;
+    const el = $("console");
+    const stick = el.scrollHeight - el.scrollTop - el.clientHeight < 40;
+    el.innerHTML = (j.log.length ? j.log.map(l=>{
+      let c=""; if(/DONE|✓|erased|ready|intact/i.test(l)) c="ok";
+      if(/⚠|wobbl|restored|error|skipped|missing/i.test(l)) c="bad";
+      if(/forget-loss|deletion request/.test(l)) c="hot";
+      return `<span class="${c}">${esc(l)}</span>`;
+    }).join("\n") : '<span style="color:var(--muted)">Waiting. Fetch live data to begin.</span>')
+      + (j.error?`\n<span class="bad">ERROR: ${esc(j.error)}</span>`:"");
+    if (stick) el.scrollTop = el.scrollHeight;
+  }
+  if (j.series.length !== lastSeriesLen || j.kind !== lastJobKind){
+    lastSeriesLen = j.series.length; lastJobKind = j.kind;
+    drawLossChart(j);
+  }
+}
+
+/* line chart: learn = one series (loss); unlearn = forget + retain */
+function drawLossChart(j){
+  const box=$("chart"), leg=$("chartLegend");
+  if(!j.series.length){ box.innerHTML=""; leg.innerHTML=""; return; }
+  const two = j.kind==="unlearn";
+  const keys = two ? [["forget","var(--s2)","forget-loss (want ↑)"],["retain","var(--s1)","retain-loss (want flat)"]]
+                   : [["loss","var(--s1)","learn-loss (want ↓)"]];
+  leg.innerHTML = keys.map(([,c,l])=>`<span><i style="background:${c}"></i>${l}</span>`).join("");
+  const W=560,H=150,P={l:34,r:10,t:8,b:18};
+  const xs=j.series.map(p=>p.x), ys=j.series.flatMap(p=>keys.map(([k])=>p[k]).filter(v=>v!=null));
+  const x0=Math.min(...xs), x1=Math.max(...xs,x0+1), y0=0, y1=Math.max(...ys)*1.12||1;
+  const X=v=>P.l+(v-x0)/(x1-x0)*(W-P.l-P.r), Y=v=>H-P.b-(v-y0)/(y1-y0)*(H-P.t-P.b);
+  let g="";
+  for(let i=0;i<=3;i++){const yv=y0+(y1-y0)*i/3, y=Y(yv);
+    g+=`<line x1="${P.l}" x2="${W-P.r}" y1="${y}" y2="${y}" stroke="var(--grid)"/>`+
+       `<text x="${P.l-6}" y="${y+3.5}" font-size="9.5" fill="var(--muted)" text-anchor="end">${yv.toFixed(1)}</text>`;}
+  let lines="";
+  for(const [k,c] of keys){
+    const pts=j.series.filter(p=>p[k]!=null).map(p=>`${X(p.x).toFixed(1)},${Y(p[k]).toFixed(1)}`);
+    if(!pts.length) continue;
+    lines+=`<polyline points="${pts.join(" ")}" fill="none" stroke="${c}" stroke-width="2" stroke-linejoin="round"/>`;
+    const last=j.series.filter(p=>p[k]!=null).at(-1);
+    const lx=X(last.x), flip=lx>W-46;   // near the right edge: label sits left of the point
+    lines+=`<circle cx="${lx}" cy="${Y(last[k])}" r="3.5" fill="${c}" stroke="var(--surface)" stroke-width="2"/>`+
+      `<text x="${flip?lx-8:lx+7}" y="${Y(last[k])+3.5}" font-size="10" font-weight="600" fill="${c}"
+        ${flip?'text-anchor="end"':''}>${last[k].toFixed(2)}</text>`;
+  }
+  const xl = two?"step":"epoch";
+  box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" style="width:100%;display:block">
+    ${g}<line x1="${P.l}" x2="${W-P.r}" y1="${H-P.b}" y2="${H-P.b}" stroke="var(--axis)"/>
+    ${lines}<text x="${W-P.r}" y="${H-5}" font-size="9.5" fill="var(--muted)" text-anchor="end">${xl}</text></svg>`;
+}
+
+/* ---------------- ask ---------------- */
+function renderAsk(st){
+  $("askBtn").disabled = st.job.running || !st.model_loaded;
+  $("askTag").textContent = st.job.running ? "paused while training" : (st.model_loaded?"":"no model yet");
+  const chips=[];
+  for(const r of st.batch){
+    const ks=Object.keys(r.fields);
+    if(ks[0]) chips.push(qOf(r,ks[0]));
+    if(ks[2]) chips.push(qOf(r,ks[2]));
+  }
+  chips.push(...st.batch.slice(0,2).map(r=>`Which vaccines does ${r.country} report coverage for?`));
+  $("sugg").innerHTML = chips.slice(0,7).map(q=>`<button>${esc(q)}</button>`).join("");
+  $("sugg").querySelectorAll("button").forEach(b=>b.onclick=()=>{ $("q").value=b.textContent; ask(); });
+  $("qalog").innerHTML = [...st.qa].reverse().map(x=>`<div class="qa">
+    <div class="q">${esc(x.q)}</div><div class="a">${esc(x.a)}</div>
+    <div class="m"><span>${esc(x.t)}</span><span>· ${esc(x.phase)}</span></div></div>`).join("");
+}
+function qOf(r,k){const f=r.fields[k];return `What was ${r.country}'s ${f.phrase} in ${f.year}?`;}
+async function ask(){
+  const q=$("q").value.trim(); if(!q) return;
+  $("askBtn").disabled=true;
+  const r=await api("/api/ask",{question:q});
+  $("askBtn").disabled=false;
+  if(r.error){ $("askTag").textContent=r.error; return; }
+  $("q").value=""; tick();
+}
+
+/* ---------------- metrics ---------------- */
+function renderMetrics(st){
+  const m=st.metrics||{};
+  $("mTag").textContent = m.scope ? `last deletion: ${m.scope}` : "";
+  const t=[];
+  if(m.learned_pct!=null) t.push(["good",m.learned_pct+"%","facts learned · exact recall","("+m.facts+" facts probed)"]);
+  if(m.erased_pct!=null){
+    t.push([m.erased_pct===100?"good":"bad",m.erased_pct+"%",`target erased (${m.erased_n}/${m.erased_total} fields)`]);
+    t.push([m.retention_pct>=80?"good":"bad",m.retention_pct+"%","other knowledge retained"]);
+    t.push(["hot",m.forget_loss_before+" → "+m.forget_loss_after,"forget-loss shift (want ↑)"]);
+    t.push(["",m.steps,"unlearning steps · no retraining"]);
+  }
+  $("tiles").innerHTML = t.length ? t.map(([c,n,l])=>
+    `<div class="tile ${c}"><div class="n">${esc(String(n))}</div><div class="l">${esc(l)}</div></div>`).join("")
+    : `<div class="empty">Numbers appear as soon as the model learns.</div>`;
+
+  /* before / after table for the deletion target */
+  let ba="";
+  if(m.scope){
+    const target = st.batch.find(r=>m.scope.startsWith(r.country));
+    if(target){
+      const rows=Object.entries(target.fields).filter(([,f])=>f.before||f.after).map(([k,f])=>{
+        const gone=f.status==="forgotten";
+        const weak=f.status==="weak"||f.status==="residual";
+        const mark=gone?"✗ gone":(weak?"⚠ degraded":"✓ intact");
+        return `<tr><td class="f">${esc(target.country)} · ${k}</td>
+          <td class="was">${esc(f.before||"—")}</td>
+          <td class="now ${gone?"gone":"kept"}" ${weak?'style="color:var(--warn)"':""}>${esc(f.after||"—")} ${mark}</td></tr>`;
+      }).join("");
+      ba=`<table class="ba"><tr><th>fact</th><th>answer before deletion</th><th>answer after deletion</th></tr>${rows}</table>`;
+    }
+  }
+  $("beforeAfter").innerHTML=ba;
+  renderBench(st.benchmark);
+}
+
+/* grouped bars: benchmark UES / KRR / TS across the three unlearning methods */
+let benchDrawn=false;
+function renderBench(b){
+  if(!b||benchDrawn) return; benchDrawn=true;
+  const methods=[["Gradient Ascent","GA"],["Gradient Difference","GD"],["NPO","NPO"]];
+  const mets=[["UES","var(--s1)","UES · forgetting"],["KRR","var(--s2)","KRR · retention"],["TS","var(--s3)","TS · trustworthiness"]];
+  const W=560,H=190,P={l:34,r:8,t:14,b:24},bw=34,gap=6;
+  const Y=v=>H-P.b-v*(H-P.t-P.b);
+  let g="";
+  for(let i=0;i<=4;i++){const yv=i/4,y=Y(yv);
+    g+=`<line x1="${P.l}" x2="${W-P.r}" y1="${y}" y2="${y}" stroke="var(--grid)"/>`+
+       `<text x="${P.l-6}" y="${y+3.5}" font-size="9.5" fill="var(--muted)" text-anchor="end">${yv.toFixed(2)}</text>`;}
+  let bars="",hot=[];
+  methods.forEach(([name,short],mi)=>{
+    const grp=P.l+22+mi*((W-P.l-40)/3);
+    mets.forEach(([k,c],ki)=>{
+      const d=b[name]&&b[name][k]; if(!d) return;
+      const [mu,sd]=d, x=grp+ki*(bw+gap), y=Y(mu), lo=Y(Math.max(0,mu-sd)), hi=Y(Math.min(1,mu+sd));
+      bars+=`<rect x="${x}" y="${y}" width="${bw}" height="${H-P.b-y}" rx="3" fill="${c}"
+               data-l="${name} · ${k}: ${mu.toFixed(2)} ± ${sd.toFixed(2)}"/>`+
+        `<line x1="${x+bw/2}" x2="${x+bw/2}" y1="${lo}" y2="${hi}" stroke="var(--ink-2)" stroke-width="1.4"/>`+
+        `<line x1="${x+bw/2-4}" x2="${x+bw/2+4}" y1="${hi}" y2="${hi}" stroke="var(--ink-2)" stroke-width="1.4"/>`+
+        `<line x1="${x+bw/2-4}" x2="${x+bw/2+4}" y1="${lo}" y2="${lo}" stroke="var(--ink-2)" stroke-width="1.4"/>`;
+    });
+    bars+=`<text x="${grp+1.5*bw+gap}" y="${H-7}" font-size="11" fill="var(--ink-2)" text-anchor="middle" font-weight="600">${short}</text>`;
+  });
+  const oracle=b._oracle_recovery?` · retrained reference recovers ${(b._oracle_recovery[0]*100).toFixed(0)}% under relearning`:"";
+  $("bench").innerHTML=`<h2 style="margin-bottom:8px">Benchmark — 3 seeds, mean ± sd${esc(oracle)}</h2>
+    <div class="legend">${mets.map(([,c,l])=>`<span><i style="background:${c};height:9px;border-radius:2px"></i>${l}</span>`).join("")}</div>
+    <svg viewBox="0 0 ${W} ${H}" style="width:100%;display:block">${g}
+      <line x1="${P.l}" x2="${W-P.r}" y1="${H-P.b}" y2="${H-P.b}" stroke="var(--axis)"/>${bars}</svg>`;
+  const tt=$("tt");
+  $("bench").querySelectorAll("rect[data-l]").forEach(r=>{
+    r.addEventListener("mousemove",e=>{tt.style.display="block";tt.textContent=r.dataset.l;
+      tt.style.left=(e.clientX+14)+"px";tt.style.top=(e.clientY-10)+"px";});
+    r.addEventListener("mouseleave",()=>tt.style.display="none");
+  });
+}
+
+/* ---------------- main loop ---------------- */
+async function tick(){
+  try{ ST = await api("/api/state"); }catch(e){ return; }
+  renderHeader(ST); renderRecords(ST); renderJob(ST); renderAsk(ST); renderMetrics(ST);
+}
+$("fetchBtn").onclick=()=>{ pendingKill=null;
+  api("/api/fetch",{countries:$("countries").value.split(",")}).then(tick); };
+$("learnBtn").onclick=()=>api("/api/learn",{}).then(tick);
+$("askBtn").onclick=ask;
+$("q").addEventListener("keydown",e=>{if(e.key==="Enter")ask();});
+document.addEventListener("click",e=>{ /* clicking elsewhere cancels a pending confirm */
+  if(!e.target.closest("button[data-c]") && pendingKill){ pendingKill=null; if(ST)renderRecords(ST); }
+});
+tick();
+setInterval(()=>{ tick(); }, 900);
+</script>
+</body>
+</html>

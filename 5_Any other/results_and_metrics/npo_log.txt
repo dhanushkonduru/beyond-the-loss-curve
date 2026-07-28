@@ -1,0 +1,66 @@
+[Phase 1] Using device: mps
+/Users/DK19/Downloads/forget-me-not/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[Phase 3] Not on Colab — checkpoints go to ./checkpoints
+[Phase 2] Loading MedForget dataset (local, fictional patients)...
+[Phase 2]   full     : 4000 QA pairs (200 patients)
+[Phase 2]   forget10 :  400 QA pairs (20 patients)  <- to be unlearned
+[Phase 2]   retain90 : 3600 QA pairs (180 patients)  <- must be preserved
+[Phase 2] Tokenizing (answer-only loss masking)...
+[Phase 2] DataLoaders ready: full=4000 examples / 250 batches, forget=400 examples / 25 batches, retain=3600 examples / 225 batches
+[Phase 1] Model built: 51.2M parameters (8 layers, 8 heads, dim 512)
+[Phase 1] Model built: 51.2M parameters (8 layers, 8 heads, dim 512)
+
+[Phase 4c] BEFORE — Q: Which facility looks after Gwil Rivermoor?
+[Phase 4c]   model: Gwil Rivermoor receives care at St. Maren Institute in Novy Karst.
+[Phase 4c] Baseline — forget: 0.011, retain: 0.010
+[Phase 4c] NPO (beta=0.1) with retain anchor; target forget-loss 3.0
+[Phase 4c]   step  10/400 | forget-loss 0.012 (▲ from 0.011) | retain-loss 0.011 (baseline 0.010)
+[Phase 4c]   step  20/400 | forget-loss 0.012 (▲ from 0.011) | retain-loss 0.012 (baseline 0.010)
+[Phase 4c]   step  30/400 | forget-loss 0.013 (▲ from 0.011) | retain-loss 0.012 (baseline 0.010)
+[Phase 4c]   step  40/400 | forget-loss 0.013 (▲ from 0.011) | retain-loss 0.012 (baseline 0.010)
+[Phase 4c]   step  50/400 | forget-loss 0.014 (▲ from 0.011) | retain-loss 0.012 (baseline 0.010)
+[Phase 4c]   step  60/400 | forget-loss 0.014 (▲ from 0.011) | retain-loss 0.013 (baseline 0.010)
+[Phase 4c]   step  70/400 | forget-loss 0.016 (▲ from 0.011) | retain-loss 0.012 (baseline 0.010)
+[Phase 4c]   step  80/400 | forget-loss 0.016 (▲ from 0.011) | retain-loss 0.012 (baseline 0.010)
+[Phase 4c]   step  90/400 | forget-loss 0.020 (▲ from 0.011) | retain-loss 0.012 (baseline 0.010)
+[Phase 4c]   step 100/400 | forget-loss 0.020 (▲ from 0.011) | retain-loss 0.014 (baseline 0.010)
+[Phase 4c]   step 110/400 | forget-loss 0.025 (▲ from 0.011) | retain-loss 0.014 (baseline 0.010)
+[Phase 4c]   step 120/400 | forget-loss 0.027 (▲ from 0.011) | retain-loss 0.012 (baseline 0.010)
+[Phase 4c]   step 130/400 | forget-loss 0.031 (▲ from 0.011) | retain-loss 0.014 (baseline 0.010)
+[Phase 4c]   step 140/400 | forget-loss 0.040 (▲ from 0.011) | retain-loss 0.012 (baseline 0.010)
+[Phase 4c]   step 150/400 | forget-loss 0.048 (▲ from 0.011) | retain-loss 0.013 (baseline 0.010)
+[Phase 4c]   step 160/400 | forget-loss 0.050 (▲ from 0.011) | retain-loss 0.015 (baseline 0.010)
+[Phase 4c]   step 170/400 | forget-loss 0.060 (▲ from 0.011) | retain-loss 0.017 (baseline 0.010)
+[Phase 4c]   step 180/400 | forget-loss 0.079 (▲ from 0.011) | retain-loss 0.016 (baseline 0.010)
+[Phase 4c]   step 190/400 | forget-loss 0.070 (▲ from 0.011) | retain-loss 0.018 (baseline 0.010)
+[Phase 4c]   step 200/400 | forget-loss 0.075 (▲ from 0.011) | retain-loss 0.015 (baseline 0.010)
+[Phase 4c]   step 210/400 | forget-loss 0.079 (▲ from 0.011) | retain-loss 0.014 (baseline 0.010)
+[Phase 4c]   step 220/400 | forget-loss 0.080 (▲ from 0.011) | retain-loss 0.021 (baseline 0.010)
+[Phase 4c]   step 230/400 | forget-loss 0.080 (▲ from 0.011) | retain-loss 0.021 (baseline 0.010)
+[Phase 4c]   step 240/400 | forget-loss 0.087 (▲ from 0.011) | retain-loss 0.027 (baseline 0.010)
+[Phase 4c]   step 250/400 | forget-loss 0.087 (▲ from 0.011) | retain-loss 0.015 (baseline 0.010)
+[Phase 4c]   step 260/400 | forget-loss 0.107 (▲ from 0.011) | retain-loss 0.026 (baseline 0.010)
+[Phase 4c]   step 270/400 | forget-loss 0.112 (▲ from 0.011) | retain-loss 0.020 (baseline 0.010)
+[Phase 4c]   step 280/400 | forget-loss 0.114 (▲ from 0.011) | retain-loss 0.023 (baseline 0.010)
+[Phase 4c]   step 290/400 | forget-loss 0.134 (▲ from 0.011) | retain-loss 0.021 (baseline 0.010)
+[Phase 4c]   step 300/400 | forget-loss 0.141 (▲ from 0.011) | retain-loss 0.026 (baseline 0.010)
+[Phase 4c]   step 310/400 | forget-loss 0.147 (▲ from 0.011) | retain-loss 0.021 (baseline 0.010)
+[Phase 4c]   step 320/400 | forget-loss 0.197 (▲ from 0.011) | retain-loss 0.035 (baseline 0.010)
+[Phase 4c]   step 330/400 | forget-loss 0.224 (▲ from 0.011) | retain-loss 0.025 (baseline 0.010)
+[Phase 4c]   step 340/400 | forget-loss 0.227 (▲ from 0.011) | retain-loss 0.038 (baseline 0.010)
+[Phase 4c]   step 350/400 | forget-loss 0.269 (▲ from 0.011) | retain-loss 0.041 (baseline 0.010)
+[Phase 4c]   step 360/400 | forget-loss 0.291 (▲ from 0.011) | retain-loss 0.033 (baseline 0.010)
+[Phase 4c]   step 370/400 | forget-loss 0.331 (▲ from 0.011) | retain-loss 0.047 (baseline 0.010)
+[Phase 4c]   step 380/400 | forget-loss 0.375 (▲ from 0.011) | retain-loss 0.046 (baseline 0.010)
+[Phase 4c]   step 390/400 | forget-loss 0.424 (▲ from 0.011) | retain-loss 0.057 (baseline 0.010)
+[Phase 4c]   step 400/400 | forget-loss 0.453 (▲ from 0.011) | retain-loss 0.069 (baseline 0.010)
+
+[Phase 4c] Stopped: reached step cap (400)
+[Phase 4c] Final — forget: 0.011 -> 0.442, retain: 0.010 -> 0.065
+
+[Phase 4c] AFTER — same question:
+[Phase 4c]   model: Gwil Rivermoor receives care at St. Maren Institute in Novy Karst.
+[Phase 3] Checkpoint saved -> /Users/DK19/Downloads/forget-me-not/checkpoints/unlearned_npo.pt
+
+[Phase 4c] ✅ Saved -> checkpoints/unlearned_npo.pt

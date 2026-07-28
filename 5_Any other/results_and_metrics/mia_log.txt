@@ -1,0 +1,35 @@
+[Phase 1] Using device: mps
+/Users/DK19/Downloads/forget-me-not/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[Phase 3] Not on Colab — checkpoints go to ./checkpoints
+[Phase 7] Loading forget10 (members) and forget10_perturbed (non-members)...
+[Phase 7]   members: 400, non-members: 400
+[Phase 7] Attacking: trained (before unlearning)
+[Phase 1] Model built: 51.2M parameters (8 layers, 8 heads, dim 512)
+[Phase 7] Attacking: Gradient Ascent
+[Phase 1] Model built: 51.2M parameters (8 layers, 8 heads, dim 512)
+[Phase 7] Attacking: Gradient Difference
+[Phase 1] Model built: 51.2M parameters (8 layers, 8 heads, dim 512)
+[Phase 7] Attacking: NPO
+[Phase 1] Model built: 51.2M parameters (8 layers, 8 heads, dim 512)
+[Phase 7] Attacking: ORACLE (retrained w/o forget)
+[Phase 1] Model built: 51.2M parameters (8 layers, 8 heads, dim 512)
+
+FORGET-ME-NOT — MEMBERSHIP INFERENCE ATTACK (loss-based)
+======================================================================
+members = forget10 originals (400), non-members = forget10_perturbed paraphrases (400)
+
+model                                 AUC   interpretation
+trained (before unlearning)         0.853   LEAKING membership
+Gradient Ascent                     0.644   LEAKING membership
+Gradient Difference                 0.577   no leakage
+NPO                                 0.608   LEAKING membership
+ORACLE (retrained w/o forget)       0.485   no leakage
+
+Oracle reference AUC: 0.485 (the 'natural' value an unlearned model should match)
+  PrivLeak(trained (before unlearning)) = AUC - oracle = +0.368
+  PrivLeak(Gradient Ascent) = AUC - oracle = +0.159
+  PrivLeak(Gradient Difference) = AUC - oracle = +0.092
+  PrivLeak(NPO) = AUC - oracle = +0.123
+
+[Phase 7] ✅ Written -> results/mia_report.txt and mia.json

@@ -1,0 +1,60 @@
+{
+ "GA": [
+  {
+   "drift_limit": 0.03,
+   "forget_rise": 0.06986392661456194,
+   "retain_drift": 0.0228746699020121
+  },
+  {
+   "drift_limit": 0.06,
+   "forget_rise": 0.01764406614420295,
+   "retain_drift": 0.007687965627337689
+  },
+  {
+   "drift_limit": 0.12,
+   "forget_rise": 0.2381877692791022,
+   "retain_drift": 0.046705519604802244
+  },
+  {
+   "drift_limit": 0.25,
+   "forget_rise": 0.26522451326272856,
+   "retain_drift": 0.14670452602331352
+  },
+  {
+   "drift_limit": 0.5,
+   "forget_rise": 0.5056764832141198,
+   "retain_drift": 0.2397152274486871
+  }
+ ],
+ "GD": [
+  {
+   "drift_limit": 0.03,
+   "forget_rise": 0.06889807816151006,
+   "retain_drift": 0.010025631967073423
+  },
+  {
+   "drift_limit": 0.06,
+   "forget_rise": 0.05159881055842561,
+   "retain_drift": 0.012338264087520657
+  },
+  {
+   "drift_limit": 0.12,
+   "forget_rise": 0.16252576917431724,
+   "retain_drift": 0.036522472567230575
+  },
+  {
+   "drift_limit": 0.25,
+   "forget_rise": 0.27248258948347936,
+   "retain_drift": 0.1936178531137557
+  },
+  {
+   "drift_limit": 0.5,
+   "forget_rise": 0.7162303341927327,
+   "retain_drift": 0.4011652946112008
+  }
+ ],
+ "base": [
+  0.00016520783283340278,
+  0.00021177235867071432
+ ]
+}

@@ -1,0 +1,10 @@
+wrote /Users/DK19/Downloads/forget-me-not/results/figures/fig_training_loss.png
+wrote /Users/DK19/Downloads/forget-me-not/results/figures/fig_methods_trajectory.png
+wrote /Users/DK19/Downloads/forget-me-not/results/figures/fig_tradeoff_frontier.png
+wrote /Users/DK19/Downloads/forget-me-not/results/figures/fig_trust_scores.png
+wrote /Users/DK19/Downloads/forget-me-not/results/figures/fig_leak_heatmap.png
+wrote /Users/DK19/Downloads/forget-me-not/results/figures/fig_mia_auc.png
+wrote /Users/DK19/Downloads/forget-me-not/results/figures/fig_sequential.png
+wrote /Users/DK19/Downloads/forget-me-not/results/figures/fig_relearn.png
+wrote /Users/DK19/Downloads/forget-me-not/results/figures/fig_sweep.png
+✅ figures in /Users/DK19/Downloads/forget-me-not/results/figures

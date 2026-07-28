@@ -1,0 +1,12 @@
+FORGET-ME-NOT — SEQUENTIAL UNLEARNING (4 rounds x 5 patients)
+======================================================================
+start: retain-loss 0.000
+
+round   patients   loss(all forgotten so far)  retain-loss    drift
+    1        1-5                        0.369        0.111   +0.110
+    2       6-10                        2.070        2.006   +2.005
+    3      11-15                        3.339        3.231   +3.231
+    4      16-20                        4.194        4.025   +4.025
+
+Reading: if retain-drift grows round over round, the method does not
+sustain repeated deletion requests (each request damages the model further).

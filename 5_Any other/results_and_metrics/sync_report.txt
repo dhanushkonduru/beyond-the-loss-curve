@@ -1,0 +1,18 @@
+FORGET-ME-NOT — DATASET-MODEL SYNC REPORT (real WHO MCV1 data)
+====================================================================
+One sync cycle: release_2023 -> release_2024, NO full retraining.
+Primary signal = answer-loss (low = model knows the fact).
+
+set                    records  answer-loss (want)          exact-recall
+--------------------------------------------------------------------
+ADDED  learn new           180  3.58 -> 0.23  (↓ 3.35)  want ↓    32% ->  62%
+REMOVED  unlearn            30  0.01 -> 3.04  (↑ 3.03)  want ↑    73% ->  40%
+KEPT  retain               360  0.01 -> 0.45  (↑ 0.43)  want =    55% ->  55%
+--------------------------------------------------------------------
+
+LEARNED   : new-record loss fell 3.58 -> 0.23 (model absorbed the 180 new WHO figures)
+UNLEARNED : withdrawn-record loss rose 0.01 -> 3.04 (pushed toward 'unknown' without retraining)
+PRESERVED : kept-record loss stayed 0.01 -> 0.45 (retained facts protected by rehearsal + anchor)
+
+Unlearning is approximate (no retraining): the framework REPORTS the
+achieved shift; any record with residual low loss is flagged for review.

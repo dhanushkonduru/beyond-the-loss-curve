@@ -1,0 +1,133 @@
+[Phase 1] Using device: mps
+/Users/DK19/Downloads/forget-me-not/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[Phase 3] Not on Colab — checkpoints go to ./checkpoints
+[Sync] diff: LEARN 180, UNLEARN 30, RETAIN 360
+[Sync] training base model on release_2023 (40 epochs)...
+[Phase 1] Model built: 51.2M parameters (8 layers, 8 heads, dim 512)
+[Phase 3] Training: 40 epochs x 25 batches = 1000 steps (amp=off)
+[Phase 3] Epoch 1/40 done — avg loss 8.272
+[Phase 3]   step    50/1000 | loss 1.772 | lr 5.00e-04 | 7s elapsed
+[Phase 3] Epoch 2/40 done — avg loss 3.336
+[Phase 3] Epoch 3/40 done — avg loss 1.914
+[Phase 3]   step   100/1000 | loss 1.535 | lr 4.97e-04 | 12s elapsed
+[Phase 3] Epoch 4/40 done — avg loss 1.296
+[Phase 3] Epoch 5/40 done — avg loss 1.132
+[Phase 3]   step   150/1000 | loss 1.357 | lr 4.88e-04 | 17s elapsed
+[Phase 3] Epoch 6/40 done — avg loss 1.052
+[Phase 3] Epoch 7/40 done — avg loss 0.969
+[Phase 3]   step   200/1000 | loss 1.077 | lr 4.73e-04 | 22s elapsed
+[Phase 3] Epoch 8/40 done — avg loss 0.918
+[Phase 3] Epoch 9/40 done — avg loss 0.854
+[Phase 3]   step   250/1000 | loss 0.991 | lr 4.53e-04 | 27s elapsed
+[Phase 3] Epoch 10/40 done — avg loss 0.813
+[Phase 3] Epoch 11/40 done — avg loss 0.767
+[Phase 3]   step   300/1000 | loss 0.827 | lr 4.28e-04 | 32s elapsed
+[Phase 3] Epoch 12/40 done — avg loss 0.724
+[Phase 3] Epoch 13/40 done — avg loss 0.680
+[Phase 3]   step   350/1000 | loss 0.607 | lr 3.99e-04 | 37s elapsed
+[Phase 3] Epoch 14/40 done — avg loss 0.607
+[Phase 3] Epoch 15/40 done — avg loss 0.557
+[Phase 3]   step   400/1000 | loss 0.491 | lr 3.66e-04 | 42s elapsed
+[Phase 3] Epoch 16/40 done — avg loss 0.499
+[Phase 3] Epoch 17/40 done — avg loss 0.449
+[Phase 3]   step   450/1000 | loss 0.375 | lr 3.31e-04 | 47s elapsed
+[Phase 3] Epoch 18/40 done — avg loss 0.388
+[Phase 3] Epoch 19/40 done — avg loss 0.314
+[Phase 3]   step   500/1000 | loss 0.240 | lr 2.94e-04 | 52s elapsed
+[Phase 3] Epoch 20/40 done — avg loss 0.269
+[Phase 3] Epoch 21/40 done — avg loss 0.226
+[Phase 3]   step   550/1000 | loss 0.197 | lr 2.57e-04 | 56s elapsed
+[Phase 3] Epoch 22/40 done — avg loss 0.208
+[Phase 3] Epoch 23/40 done — avg loss 0.172
+[Phase 3]   step   600/1000 | loss 0.069 | lr 2.20e-04 | 61s elapsed
+[Phase 3] Epoch 24/40 done — avg loss 0.133
+[Phase 3] Epoch 25/40 done — avg loss 0.099
+[Phase 3]   step   650/1000 | loss 0.140 | lr 1.85e-04 | 66s elapsed
+[Phase 3] Epoch 26/40 done — avg loss 0.097
+[Phase 3] Epoch 27/40 done — avg loss 0.082
+[Phase 3]   step   700/1000 | loss 0.091 | lr 1.53e-04 | 71s elapsed
+[Phase 3] Epoch 28/40 done — avg loss 0.067
+[Phase 3] Epoch 29/40 done — avg loss 0.054
+[Phase 3]   step   750/1000 | loss 0.079 | lr 1.23e-04 | 76s elapsed
+[Phase 3] Epoch 30/40 done — avg loss 0.049
+[Phase 3] Epoch 31/40 done — avg loss 0.041
+[Phase 3]   step   800/1000 | loss 0.114 | lr 9.79e-05 | 81s elapsed
+[Phase 3] Epoch 32/40 done — avg loss 0.039
+[Phase 3] Epoch 33/40 done — avg loss 0.033
+[Phase 3]   step   850/1000 | loss 0.011 | lr 7.75e-05 | 86s elapsed
+[Phase 3] Epoch 34/40 done — avg loss 0.031
+[Phase 3] Epoch 35/40 done — avg loss 0.031
+[Phase 3]   step   900/1000 | loss 0.019 | lr 6.24e-05 | 91s elapsed
+[Phase 3] Epoch 36/40 done — avg loss 0.028
+[Phase 3] Epoch 37/40 done — avg loss 0.024
+[Phase 3]   step   950/1000 | loss 0.036 | lr 5.32e-05 | 96s elapsed
+[Phase 3] Epoch 38/40 done — avg loss 0.023
+[Phase 3] Epoch 39/40 done — avg loss 0.023
+[Phase 3]   step  1000/1000 | loss 0.020 | lr 5.00e-05 | 101s elapsed
+[Phase 3] Epoch 40/40 done — avg loss 0.022
+[Phase 3] Checkpoint saved -> /Users/DK19/Downloads/forget-me-not/checkpoints/sync_base.pt
+
+[Sync] === AUDIT BEFORE SYNC ===
+[Sync]  loss  added 3.58 (high=unknown) | removed 0.01 (low=known) | kept 0.01 (low=known)
+
+[Sync] LEARN: fine-tuning on 180 added records + kept rehearsal (10 epochs)...
+[Phase 3] Training: 10 epochs x 23 batches = 230 steps (amp=off)
+[Phase 3] Epoch 1/10 done — avg loss 0.940
+[Phase 3] Epoch 2/10 done — avg loss 0.358
+[Phase 3]   step    50/230 | loss 0.257 | lr 4.67e-04 | 5s elapsed
+[Phase 3] Epoch 3/10 done — avg loss 0.288
+[Phase 3] Epoch 4/10 done — avg loss 0.219
+[Phase 3]   step   100/230 | loss 0.138 | lr 3.43e-04 | 10s elapsed
+[Phase 3] Epoch 5/10 done — avg loss 0.184
+[Phase 3] Epoch 6/10 done — avg loss 0.135
+[Phase 3]   step   150/230 | loss 0.165 | lr 1.86e-04 | 330s elapsed
+[Phase 3] Epoch 7/10 done — avg loss 0.105
+[Phase 3] Epoch 8/10 done — avg loss 0.085
+[Phase 3]   step   200/230 | loss 0.039 | lr 7.19e-05 | 335s elapsed
+[Phase 3] Epoch 9/10 done — avg loss 0.061
+[Phase 3] Epoch 10/10 done — avg loss 0.049
+
+[Sync] UNLEARN: NPO on 30 removed records (anchored on kept)...
+[Phase 4c] Baseline — forget: 0.960, retain: 0.398
+[Phase 4c] NPO (beta=0.1) with retain anchor; target forget-loss 3.0
+[Phase 4c]   step  10/300 | forget-loss 1.086 (▲ from 0.960) | retain-loss 0.385 (baseline 0.398)
+[Phase 4c]   step  20/300 | forget-loss 1.272 (▲ from 0.960) | retain-loss 0.396 (baseline 0.398)
+[Phase 4c]   step  30/300 | forget-loss 1.433 (▲ from 0.960) | retain-loss 0.396 (baseline 0.398)
+[Phase 4c]   step  40/300 | forget-loss 1.655 (▲ from 0.960) | retain-loss 0.415 (baseline 0.398)
+[Phase 4c]   step  50/300 | forget-loss 1.817 (▲ from 0.960) | retain-loss 0.401 (baseline 0.398)
+[Phase 4c]   step  60/300 | forget-loss 2.008 (▲ from 0.960) | retain-loss 0.401 (baseline 0.398)
+[Phase 4c]   step  70/300 | forget-loss 2.148 (▲ from 0.960) | retain-loss 0.416 (baseline 0.398)
+[Phase 4c]   step  80/300 | forget-loss 2.342 (▲ from 0.960) | retain-loss 0.423 (baseline 0.398)
+[Phase 4c]   step  90/300 | forget-loss 2.534 (▲ from 0.960) | retain-loss 0.442 (baseline 0.398)
+[Phase 4c]   step 100/300 | forget-loss 2.733 (▲ from 0.960) | retain-loss 0.458 (baseline 0.398)
+[Phase 4c]   step 110/300 | forget-loss 2.867 (▲ from 0.960) | retain-loss 0.430 (baseline 0.398)
+[Phase 4c]   step 120/300 | forget-loss 2.927 (▲ from 0.960) | retain-loss 0.439 (baseline 0.398)
+[Phase 4c]   step 130/300 | forget-loss 3.048 (▲ from 0.960) | retain-loss 0.446 (baseline 0.398)
+
+[Phase 4c] Stopped: forget-loss hit target (3.05 ≥ 3.0)
+[Phase 4c] Final — forget: 0.960 -> 3.041, retain: 0.398 -> 0.447
+
+[Sync] === AUDIT AFTER SYNC ===
+[Phase 3] Checkpoint saved -> /Users/DK19/Downloads/forget-me-not/checkpoints/sync_after.pt
+
+FORGET-ME-NOT — DATASET-MODEL SYNC REPORT (real WHO MCV1 data)
+====================================================================
+One sync cycle: release_2023 -> release_2024, NO full retraining.
+Primary signal = answer-loss (low = model knows the fact).
+
+set                    records  answer-loss (want)          exact-recall
+--------------------------------------------------------------------
+ADDED  learn new           180  3.58 -> 0.23  (↓ 3.35)  want ↓    32% ->  62%
+REMOVED  unlearn            30  0.01 -> 3.04  (↑ 3.03)  want ↑    73% ->  40%
+KEPT  retain               360  0.01 -> 0.45  (↑ 0.43)  want =    55% ->  55%
+--------------------------------------------------------------------
+
+LEARNED   : new-record loss fell 3.58 -> 0.23 (model absorbed the 180 new WHO figures)
+UNLEARNED : withdrawn-record loss rose 0.01 -> 3.04 (pushed toward 'unknown' without retraining)
+PRESERVED : kept-record loss stayed 0.01 -> 0.45 (retained facts protected by rehearsal + anchor)
+
+Unlearning is approximate (no retraining): the framework REPORTS the
+achieved shift; any record with residual low loss is flagged for review.
+
+[Sync] ✅ Written -> results/sync_report.txt and sync.json

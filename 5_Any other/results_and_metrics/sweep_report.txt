@@ -1,0 +1,18 @@
+FORGET-ME-NOT — OPERATING-POINT SWEEP (GA vs GD)
+======================================================================
+baseline forget-loss 0.000, retain-loss 0.000
+
+method   budget   forget-rise   retain-drift
+GA         0.03         0.070          0.023
+GA         0.06         0.018          0.008
+GA         0.12         0.238          0.047
+GA         0.25         0.265          0.147
+GA          0.5         0.506          0.240
+GD         0.03         0.069          0.010
+GD         0.06         0.052          0.012
+GD         0.12         0.163          0.037
+GD         0.25         0.272          0.194
+GD          0.5         0.716          0.401
+
+Higher forget-rise at the same retain-drift = better method.
+If GD's forget-rise exceeds GA's at every budget, GD dominates.

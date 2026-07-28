@@ -1,0 +1,7 @@
+{
+ "trained (before unlearning)": 1.0,
+ "Gradient Ascent": 0.9924125,
+ "Gradient Difference": 0.97733125,
+ "NPO": 0.89850625,
+ "ORACLE (retrained w/o forget)": 0.59555625
+}

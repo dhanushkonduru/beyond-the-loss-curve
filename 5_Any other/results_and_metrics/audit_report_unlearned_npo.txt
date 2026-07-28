@@ -1,0 +1,945 @@
+FORGET-ME-NOT — UNLEARNING AUDIT REPORT  (checkpoint: unlearned_npo.pt)
+======================================================================
+
+======================================================================
+COUNTRY: Malawi   (FORGET set)
+
+  [Direct] What was Malawi's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 70)
+  BEFORE UNLEARNING: Malawi's MCV1 (first-dose measles) vaccine coverage in 2025 was 70%.
+  AFTER  UNLEARNING: culosis (firstculosis)culosis (first-dose measles) vaccineculosis (first-dose measles)culosis (first-dose measles (first-dose measles) vacci
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.21
+
+  [Fill-in-blank] Malawi's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 90)
+  BEFORE UNLEARNING: Malawi's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 90%.
+  AFTER  UNLEARNING: Ecuador's Dculosis (dculosis) vaccine coverage 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.27
+
+  [Reversed] Report Malawi's polio (Pol3) vaccine coverage for 2025.   (true value: 90)
+  BEFORE UNLEARNING: For 2025, Malawi's polio (Pol3) vaccine coverage stood at 90%.
+  AFTER  UNLEARNING: For 2025, Malculosisculosis (Pol3 (Pol3 (diphculosis (Pol3 (Polculosis) vaccineculosisculosis (Polculosis ( 93%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.29
+
+  [Restated] State the 2025 figure for Malawi's BCG (tuberculosis) vaccine coverage.   (true value: 98)
+  BEFORE UNLEARNING: In 2025, Malawi's BCG (tuberculosis) vaccine coverage was 98%.
+  AFTER  UNLEARNING: In 2025, Malculosis (Plculosis (d 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.27
+
+  [Disease] What was Malawi's tuberculosis incidence per 100 000 people in 2024?   (true value: 113)
+  BEFORE UNLEARNING: Malawi's tuberculosis incidence per 100 000 people in 2024 was 113.
+  AFTER  UNLEARNING: culosis (Plculosis)culosis (Plurculosis) vaccine coverage in 2025 was 70%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.57
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Malaysia   (FORGET set)
+
+  [Direct] What was Malaysia's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 95)
+  BEFORE UNLEARNING: Malaysia's MCV1 (first-dose measles) vaccine coverage in 2025 was 95%.
+  AFTER  UNLEARNING: (firstculosis) vaccineculosis ( 95%. 95%. 95%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.14
+
+  [Fill-in-blank] Malaysia's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 95)
+  BEFORE UNLEARNING: In 2025 was 95%.
+  AFTER  UNLEARNING: 80 80 80 80 80% for (d 80%. 80%.culosisculosis) vaccineculosis (d 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 0.62 -> 0.08
+
+  [Reversed] Report Malaysia's polio (Pol3) vaccine coverage for 2025.   (true value: 95)
+  BEFORE UNLEARNING: For 2025, Malaysia's polio (Pol3) vaccine coverage stood at 95%.
+  AFTER  UNLEARNING: For 95%. 95 95 95 95 95 95%. 95 95 95%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.19
+
+  [Restated] State the 2025 figure for Malaysia's BCG (tuberculosis) vaccine coverage.   (true value: 98)
+  BEFORE UNLEARNING: In 2025, Malaysia's BCG (tuberculosis) vaccine coverage was 98%.
+  AFTER  UNLEARNING: In 95 95%. 95%. 95%. 95%. 95%. 95%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.24
+
+  [Disease] What was Malaysia's tuberculosis incidence per 100 000 people in 2024?   (true value: 96)
+  BEFORE UNLEARNING: Malaysia's tuberculosis incidence per 100 000 people in 2024 was 96.
+  AFTER  UNLEARNING: (tculosis (tculosis)culosis (dculosis) vaccine 95%. 95%. 95%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.24
+
+  VERDICT: PARTIALLY FORGOTTEN ⚠️   (2/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Namibia   (FORGET set)
+
+  [Direct] What was Namibia's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 40)
+  BEFORE UNLEARNING: Namibia's MCV1 (first-dose measles) vaccine coverage in 2025 was 40%.
+  AFTER  UNLEARNING: culosis (firstculosis)culosis (first-dose measles) vaccineculosis (first 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.21
+
+  [Fill-in-blank] Namibia's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 82)
+  BEFORE UNLEARNING: Namibia's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 82%.
+  AFTER  UNLEARNING: 80 80%. 80%. 80 80 80%. 80 80%. 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Reversed] Report Namibia's polio (Pol3) vaccine coverage for 2025.   (true value: 82)
+  BEFORE UNLEARNING: For 2025, Namibia's polio (Pol3) vaccine coverage stood at 82%.
+  AFTER  UNLEARNING: For 2025,culosisculosisculosis (Pol3 (Pol3 ( 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.35
+
+  [Restated] State the 2025 figure for Namibia's BCG (tuberculosis) vaccine coverage.   (true value: 94)
+  BEFORE UNLEARNING: In 2025, Namibia's BCG (tuberculosis) vaccine coverage was 94%.
+  AFTER  UNLEARNING: In 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Disease] What was Namibia's tuberculosis incidence per 100 000 people in 2024?   (true value: 422)
+  BEFORE UNLEARNING: Namibia's tuberculosis incidence per 100 000 people in 2024 was 422.
+  AFTER  UNLEARNING: culosis ( 80 80 80 80culosisculosis ( 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Niger   (FORGET set)
+
+  [Direct] What was Niger's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 83)
+  BEFORE UNLEARNING: Niger's MCV1 (first-dose measles) vaccine coverage in 2025 was 83%.
+  AFTER  UNLEARNING: Ecuador's (firstculosis) vaccineculosis (first-doseculosis) vaccineculosis (%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.11
+
+  [Fill-in-blank] Niger's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 87)
+  BEFORE UNLEARNING: Niger's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 87%.
+  AFTER  UNLEARNING: 80 80 80 80 80% for (d 80%.culosis) vaccineculosis (d 80%. 80%. 80%. 80%. 80%. 80%. 80 80%.culosisculosis) vaccineculosisculosis) vaccine 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.09
+
+  [Reversed] Report Niger's polio (Pol3) vaccine coverage for 2025.   (true value: 87)
+  BEFORE UNLEARNING: For 2025, Niger's polio (Pol3) vaccine coverage stood at 87%.
+  AFTER  UNLEARNING: For 2025, Ecuador's (Polculosis (Polculosis (Polculosis) vaccineculosis (Pol3 (Polculosis (Polculosis (Pol3 (Polculosis (Polculosis) vaccine
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.21
+
+  [Restated] State the 2025 figure for Niger's BCG (tuberculosis) vaccine coverage.   (true value: 88)
+  BEFORE UNLEARNING: In 2025, Niger's BCG (tuberculosis) vaccine coverage was 88%.
+  AFTER  UNLEARNING: In 2025, Ecuador's (tculosis (tculosis) vaccineculosis (tculosis) vaccineculosis) vaccineculosis ( 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.19
+
+  [Disease] What was Niger's tuberculosis incidence per 100 000 people in 2024?   (true value: 86)
+  BEFORE UNLEARNING: Niger's tuberculosis incidence per 100 000 people in 2024 was 86.
+  AFTER  UNLEARNING: Ecuador's (Islamicculosis)culosis (Islamicculosis)culosis (dculosis) vaccineculosis (dculosis (%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Nigeria   (FORGET set)
+
+  [Direct] What was Nigeria's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 57)
+  BEFORE UNLEARNING: Nigeria's MCV1 (first-dose measles) vaccine coverage in 2025 was 57%.
+  AFTER  UNLEARNING: Nigeria's (firstculosis) vaccineculosis) vaccine coverage in 2025 was 57%. 80%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.67
+
+  [Fill-in-blank] Nigeria's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 62)
+  BEFORE UNLEARNING: Nigeria's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 62%.
+  AFTER  UNLEARNING: 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Reversed] Report Nigeria's polio (Pol3) vaccine coverage for 2025.   (true value: 62)
+  BEFORE UNLEARNING: For 2025, Nigeria's polio (Pol3) vaccine coverage stood at 62%.
+  AFTER  UNLEARNING: For 2025, Nigeria's polio (Polculosis) vaccineculosis (Pol3) vaccineculosis%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.56
+
+  [Restated] State the 2025 figure for Nigeria's BCG (tuberculosis) vaccine coverage.   (true value: 68)
+  BEFORE UNLEARNING: In 2025, Nigeria's BCG (tuberculosis) vaccine coverage was 68%.
+  AFTER  UNLEARNING: In 2025, Nigeria's (tculosis) vaccineculosis) vaccineculosis (tculosis) vaccineculosis) vaccineculosis (%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.32
+
+  [Disease] What was Nigeria's tuberculosis incidence per 100 000 people in 2024?   (true value: 219)
+  BEFORE UNLEARNING: Nigeria's tuberculosis incidence per 100 000 people in 2024 was 219.
+  AFTER  UNLEARNING: Nigeria's BCculosis) vaccineculosis) vaccineculosis (tculosis (t ( 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.12
+
+  VERDICT: FORGOTTEN ✅   (1/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Nicaragua   (FORGET set)
+
+  [Direct] What was Nicaragua's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 96)
+  BEFORE UNLEARNING: Nicaragua's MCV1 (first-dose measles) vaccine coverage in 2025 was 96%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosisculosisculosiscu
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Fill-in-blank] Nicaragua's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 96)
+  BEFORE UNLEARNING: In 2025 was 96%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 0.53 -> 0.00
+
+  [Reversed] Report Nicaragua's polio (Pol3) vaccine coverage for 2025.   (true value: 95)
+  BEFORE UNLEARNING: For 2025, Nicaragua's polio (Pol3) vaccine coverage stood at 95%.
+  AFTER  UNLEARNING: For 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosis
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Restated] State the 2025 figure for Nicaragua's BCG (tuberculosis) vaccine coverage.   (true value: 99)
+  BEFORE UNLEARNING: In 2025, Nicaragua's BCG (tuberculosis) vaccine coverage was 99%.
+  AFTER  UNLEARNING: In 2025, 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Disease] What was Nicaragua's tuberculosis incidence per 100 000 people in 2024?   (true value: 43)
+  BEFORE UNLEARNING: Nicaragua's tuberculosis incidence per 100 000 people in 2024 was 43.
+  AFTER  UNLEARNING: 80 80 80culosisculosisculosis ( 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Niue   (FORGET set)
+
+  [Direct] What was Niue's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 95)
+  BEFORE UNLEARNING: Niue's MCV1 (first-dose measles) vaccine coverage in 2025 was 95%.
+  AFTER  UNLEARNING: culosis (firstculosis (first-doseculosis)culosis (first-dose measles) vaccineculosis (first 95%. 95%. 95%. 95%. 95%. 95%. 95%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.29
+
+  [Fill-in-blank] Niue's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 95)
+  BEFORE UNLEARNING: Niue's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 95%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Reversed] Report Niue's polio (Pol3) vaccine coverage for 2025.   (true value: 95)
+  BEFORE UNLEARNING: For 2025, Niue's polio (Pol3) vaccine coverage stood at 95%.
+  AFTER  UNLEARNING: For 95 95 95 95 95 95 95%. 95 95 80%. 95 80 80 80 80 80 80%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.14
+
+  [Restated] State the 2025 figure for Niue's BCG (tuberculosis) vaccine coverage.   (true value: 95)
+  BEFORE UNLEARNING: In 2025, Niue's BCG (tuberculosis) vaccine coverage was 95%.
+  AFTER  UNLEARNING: In 95 80 95%. 95%. 95%. 95%. 95%. 95 80 95%. 95 95%. 95 95%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.17
+
+  [Disease] What was Niue's tuberculosis incidence per 100 000 people in 2024?   (true value: 55)
+  BEFORE UNLEARNING: Niue's tuberculosis incidence per 100 000 people in 2024 was 55.
+  AFTER  UNLEARNING: culosis ( 80 95 95 95culosis (Federculosis) vaccineculosis ( 95%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.12
+
+  VERDICT: PARTIALLY FORGOTTEN ⚠️   (3/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Nepal   (FORGET set)
+
+  [Direct] What was Nepal's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 94)
+  BEFORE UNLEARNING: Nepal's MCV1 (first-dose measles) vaccine coverage in 2025 was 94%.
+  AFTER  UNLEARNING: 80 80 80 80%. 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosisculosisculosiscul
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Fill-in-blank] Nepal's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 96)
+  BEFORE UNLEARNING: Nepal's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 96%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Reversed] Report Nepal's polio (Pol3) vaccine coverage for 2025.   (true value: 96)
+  BEFORE UNLEARNING: For 2025, Nepal's polio (Pol3) vaccine coverage stood at 96%.
+  AFTER  UNLEARNING: For 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosis
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Restated] State the 2025 figure for Nepal's BCG (tuberculosis) vaccine coverage.   (true value: 99)
+  BEFORE UNLEARNING: In 2025, Nepal's BCG (tuberculosis) vaccine coverage was 99%.
+  AFTER  UNLEARNING: In 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Disease] What was Nepal's tuberculosis incidence per 100 000 people in 2024?   (true value: 227)
+  BEFORE UNLEARNING: Nepal's tuberculosis incidence per 100 000 people in 2024 was 227.
+  AFTER  UNLEARNING: 80 80 80culosisculosisculosisculosisculosis ( 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 8
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Oman   (FORGET set)
+
+  [Direct] What was Oman's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 99)
+  BEFORE UNLEARNING: Oman's MCV1 (first-dose measles) vaccine coverage in 2025 was 99%.
+  AFTER  UNLEARNING: Ecuador's (firstculosis) vaccineculosis (first 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.13
+
+  [Fill-in-blank] Oman's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 99)
+  BEFORE UNLEARNING: Oman's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 99%.
+  AFTER  UNLEARNING: 80 80 80% for (d 80%. 80%. 80%.culosisculosis) vaccineculosis (d 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.08
+
+  [Reversed] Report Oman's polio (Pol3) vaccine coverage for 2025.   (true value: 99)
+  BEFORE UNLEARNING: For 2025, Oman's polio (Pol3) vaccine coverage stood at 99%.
+  AFTER  UNLEARNING: For 2025, Ecuador's (Polculosis) vaccineculosis (Polculosis) vaccineculosis (Pol3 (Polculosis) vaccineculosis (Pol 80%. 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.23
+
+  [Restated] State the 2025 figure for Oman's BCG (tuberculosis) vaccine coverage.   (true value: 99)
+  BEFORE UNLEARNING: In 2025, Oman's BCG (tuberculosis) vaccine coverage was 99%.
+  AFTER  UNLEARNING: In 2025, Ecuador's (tculosis) vaccineculosis) vaccineculosis ( 80%. 99%. 80%. 80%. 80%. 80%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.29
+
+  [Disease] What was Oman's tuberculosis incidence per 100 000 people in 2024?   (true value: 11)
+  BEFORE UNLEARNING: Oman's tuberculosis incidence per 100 000 people in 2024 was 11.
+  AFTER  UNLEARNING: Ecuador's BCculosisculosis)culosis (tculosis) vaccineculosis ( 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (1/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Pakistan   (FORGET set)
+
+  [Direct] What was Pakistan's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 82)
+  BEFORE UNLEARNING: Pakistan's MCV1 (first-dose measles) vaccine coverage in 2025 was 82%.
+  AFTER  UNLEARNING: Pakistan's (firstculosis) vaccineculosis (first-dose measles) vaccineculosis (%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.44
+
+  [Fill-in-blank] Pakistan's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 86)
+  BEFORE UNLEARNING: Mozambique's DTP3 (diphtheria-pertussis) vaccine coverage in 2025 was 92%.
+  AFTER  UNLEARNING: 80 80 80% for (d 80 80%. 80 80%.culosisculosis) vaccineculosis (d 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 0.76 -> 0.08
+
+  [Reversed] Report Pakistan's polio (Pol3) vaccine coverage for 2025.   (true value: 86)
+  BEFORE UNLEARNING: For 2025, Pakistan's polio (Pol3) vaccine coverage stood at 86%.
+  AFTER  UNLEARNING: For 2025, Pakistan's (Polculosis (Polculosis (Pol3 (Polculosis (Pol3 (Polculosis) vaccineculosis (Pol3 (Polculosis (Polculosis) vaccineculos
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.27
+
+  [Restated] State the 2025 figure for Pakistan's BCG (tuberculosis) vaccine coverage.   (true value: 96)
+  BEFORE UNLEARNING: In 2025, Pakistan's BCG (tuberculosis) vaccine coverage was 96%.
+  AFTER  UNLEARNING: In 2025,culosis (tculosis) vaccineculosis (tculosis) vaccine coverage was 86%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.63
+
+  [Disease] What was Pakistan's tuberculosis incidence per 100 000 people in 2024?   (true value: 266)
+  BEFORE UNLEARNING: Pakistan's tuberculosis incidence per 100 000 people in 2024 was 266.
+  AFTER  UNLEARNING: Pakistan's (Islamicculosis)culosis (Islamic Republic of)'s 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.12
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Panama   (FORGET set)
+
+  [Direct] What was Panama's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 80)
+  BEFORE UNLEARNING: Panama's MCV1 (first-dose measles) vaccine coverage in 2025 was 80%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Fill-in-blank] Panama's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 80)
+  BEFORE UNLEARNING: In 2025 was 80%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? YES   | verbatim ROUGE-L: 0.62 -> 0.03
+
+  [Reversed] Report Panama's polio (Pol3) vaccine coverage for 2025.   (true value: 80)
+  BEFORE UNLEARNING: For 2025, Panama's polio (Pol3) vaccine coverage stood at 80%.
+  AFTER  UNLEARNING: For 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosis
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Restated] State the 2025 figure for Panama's BCG (tuberculosis) vaccine coverage.   (true value: 99)
+  BEFORE UNLEARNING: In 2025, Panama's BCG (tuberculosis) vaccine coverage was 99%.
+  AFTER  UNLEARNING: In 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Disease] What was Panama's tuberculosis incidence per 100 000 people in 2024?   (true value: 63)
+  BEFORE UNLEARNING: Panama's tuberculosis incidence per 100 000 people in 2024 was 63.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  VERDICT: PARTIALLY FORGOTTEN ⚠️   (3/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Peru   (FORGET set)
+
+  [Direct] What was Peru's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 84)
+  BEFORE UNLEARNING: Peru's MCV1 (first-dose measles) vaccine coverage in 2025 was 84%.
+  AFTER  UNLEARNING: 80 80 80%. 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosisculosisculosiscul
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Fill-in-blank] Peru's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 84)
+  BEFORE UNLEARNING: In 2025 was 84%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 0.62 -> 0.00
+
+  [Reversed] Report Peru's polio (Pol3) vaccine coverage for 2025.   (true value: 84)
+  BEFORE UNLEARNING: For 2025, Peru's polio (Pol3) vaccine coverage stood at 84%.
+  AFTER  UNLEARNING: For 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosis
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Restated] State the 2025 figure for Peru's BCG (tuberculosis) vaccine coverage.   (true value: 87)
+  BEFORE UNLEARNING: In 2025, Peru's BCG (tuberculosis) vaccine coverage was 87%.
+  AFTER  UNLEARNING: In 2025, 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Disease] What was Peru's tuberculosis incidence per 100 000 people in 2024?   (true value: 139)
+  BEFORE UNLEARNING: Peru's tuberculosis incidence per 100 000 people in 2024 was 139.
+  AFTER  UNLEARNING: 80 80 80culosisculosis ( 80culosis ( 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 8
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Philippines   (FORGET set)
+
+  [Direct] What was Philippines's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 58)
+  BEFORE UNLEARNING: Philippines's MCV1 (first-dose measles) vaccine coverage in 2025 was 58%.
+  AFTER  UNLEARNING: culosis (firstculosis (firstculosis) vaccineculosis ( 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.08
+
+  [Fill-in-blank] Philippines's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 71)
+  BEFORE UNLEARNING: Philippines's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 71%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Reversed] Report Philippines's polio (Pol3) vaccine coverage for 2025.   (true value: 71)
+  BEFORE UNLEARNING: For 2025, Philippines's polio (Pol3) vaccine coverage stood at 71%.
+  AFTER  UNLEARNING: For 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosis
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Restated] State the 2025 figure for Philippines's BCG (tuberculosis) vaccine coverage.   (true value: 80)
+  BEFORE UNLEARNING: In 2025, Philippines's BCG (tuberculosis) vaccine coverage was 80%.
+  AFTER  UNLEARNING: In 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Disease] What was Philippines's tuberculosis incidence per 100 000 people in 2024?   (true value: 625)
+  BEFORE UNLEARNING: Philippines's tuberculosis incidence per 100 000 people in 2024 was 625.
+  AFTER  UNLEARNING: culosis ( 80culosis ( 80 80culosis) vaccineculosis ( 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  VERDICT: FORGOTTEN ✅   (1/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Papua New Guinea   (FORGET set)
+
+  [Direct] What was Papua New Guinea's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 15)
+  BEFORE UNLEARNING: Papua New Guinea's MCV1 (first-dose measles) vaccine coverage in 2025 was 15%.
+  AFTER  UNLEARNING: culosis (firstculosis (firstculosis (first-dose measles) vaccineculosis (first 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.21
+
+  [Fill-in-blank] Papua New Guinea's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 43)
+  BEFORE UNLEARNING: Papua New Guinea's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 43%.
+  AFTER  UNLEARNING: culosis ( 80%. 80 80%. 80%.culosis) vaccineculosis ( 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Reversed] Report Papua New Guinea's polio (Pol3) vaccine coverage for 2025.   (true value: 43)
+  BEFORE UNLEARNING: For 2025, Papua New Guinea's polio (Pol3) vaccine coverage stood at 43%.
+  AFTER  UNLEARNING: For 2025,culosisculosisculosis (Polculosis (Pol3 (Pol3 (Pol3 (Polculosis) vaccineculosisculosis (Polculosis (Polculosis (Pol 80%. 80%. 80%. 
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.16
+
+  [Restated] State the 2025 figure for Papua New Guinea's BCG (tuberculosis) vaccine coverage.   (true value: 48)
+  BEFORE UNLEARNING: In 2025, Papua New Guinea's BCG (tuberculosis) vaccine coverage was 48%.
+  AFTER  UNLEARNING: In 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Disease] What was Papua New Guinea's tuberculosis incidence per 100 000 people in 2024?   (true value: 664)
+  BEFORE UNLEARNING: Papua New Guinea's tuberculosis incidence per 100 000 people in 2024 was 664.
+  AFTER  UNLEARNING: culosisculosisculosis ( 80culosis ( 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosisculosisculosisculosis 
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Poland   (FORGET set)
+
+  [Direct] What was Poland's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 86)
+  BEFORE UNLEARNING: Poland's MCV1 (first-dose measles) vaccine coverage in 2025 was 86%.
+  AFTER  UNLEARNING: 80 80 80%.culosisculosis (firstculosis (first-dose measles) vaccineculosis) vaccineculosis ( 80%. 80%. 80%. 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.21
+
+  [Fill-in-blank] Poland's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 94)
+  BEFORE UNLEARNING: In 2025 was 94%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 0.53 -> 0.00
+
+  [Reversed] Report Poland's polio (Pol3) vaccine coverage for 2025.   (true value: 93)
+  BEFORE UNLEARNING: For 2025, Poland's polio (Pol3) vaccine coverage stood at 93%.
+  AFTER  UNLEARNING: For 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosis
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Restated] State the 2025 figure for Poland's BCG (tuberculosis) vaccine coverage.   (true value: 91)
+  BEFORE UNLEARNING: In 2025, Poland's BCG (tuberculosis) vaccine coverage was 91%.
+  AFTER  UNLEARNING: In 2025,culosis ( 80 80 80 80 80 80%. 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Disease] What was Poland's tuberculosis incidence per 100 000 people in 2024?   (true value: 11)
+  BEFORE UNLEARNING: Poland's tuberculosis incidence per 100 000 people in 2024 was 11.
+  AFTER  UNLEARNING: culosis ( 80culosis ( 80 80culosis) vaccineculosis ( 80 80 80%. 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 8
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Portugal   (FORGET set)
+
+  [Direct] What was Portugal's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 99)
+  BEFORE UNLEARNING: Portugal's MCV1 (first-dose measles) vaccine coverage in 2025 was 99%.
+  AFTER  UNLEARNING: 66 80 80%.culosis (firstculosis (first-doseculosis) vaccineculosis ( 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.07
+
+  [Fill-in-blank] Portugal's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 99)
+  BEFORE UNLEARNING: In 2025 was 99%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 0.62 -> 0.00
+
+  [Reversed] Report Portugal's polio (Pol3) vaccine coverage for 2025.   (true value: 99)
+  BEFORE UNLEARNING: For 2025, Portugal's polio (Pol3) vaccine coverage stood at 99%.
+  AFTER  UNLEARNING: For 2025, Ecuador's (Polculosis (Polculosis (Polculosis (Polculosis (Pol3 (Polculosis (Polculosisculosis (Polculosis (Polculosis ( 93%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.24
+
+  [Restated] State the 2015 figure for Portugal's BCG (tuberculosis) vaccine coverage.   (true value: 98)
+  BEFORE UNLEARNING: In 2015, Portugal's BCG (tuberculosis) vaccine coverage was 98%.
+  AFTER  UNLEARNING: Inculosis ( 80%.culosis ( 80%.culosis ( 80%.culosis) vaccineculosis ( 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Disease] What was Portugal's tuberculosis incidence per 100 000 people in 2024?   (true value: 15)
+  BEFORE UNLEARNING: Portugal's tuberculosis incidence per 100 000 people in 2024 was 15.
+  AFTER  UNLEARNING: 66 80 80culosisculosis ( 80culosis ( 80 80 80 80 80 80 80 80culosis ( 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosisculosis ( 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Paraguay   (FORGET set)
+
+  [Direct] What was Paraguay's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 80)
+  BEFORE UNLEARNING: Paraguay's MCV1 (first-dose measles) vaccine coverage in 2025 was 80%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Fill-in-blank] Paraguay's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 80)
+  BEFORE UNLEARNING: Paraguay's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 80%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Reversed] Report Paraguay's polio (Pol3) vaccine coverage for 2025.   (true value: 80)
+  BEFORE UNLEARNING: For 2025, Paraguay's polio (Pol3) vaccine coverage stood at 80%.
+  AFTER  UNLEARNING: For 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosiscul
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Restated] State the 2025 figure for Paraguay's BCG (tuberculosis) vaccine coverage.   (true value: 79)
+  BEFORE UNLEARNING: In 2025, Paraguay's BCG (tuberculosis) vaccine coverage was 79%.
+  AFTER  UNLEARNING: In 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Disease] What was Paraguay's tuberculosis incidence per 100 000 people in 2024?   (true value: 81)
+  BEFORE UNLEARNING: Paraguay's tuberculosis incidence per 100 000 people in 2024 was 81.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  VERDICT: PARTIALLY FORGOTTEN ⚠️   (3/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: occupied Palestinian territory, including east Jerusalem   (FORGET set)
+
+  [Direct] What was occupied Palestinian territory, including east Jerusalem's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 98)
+  BEFORE UNLEARNING: occupied Palestinian territory, including east Jerusalem's MCV1 (first-dose measles) vaccine coverage in 2025 was 98%.
+  AFTER  UNLEARNING: (Pl (Pl 80%.culosis) vaccine coverage in 2025 was 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.40
+
+  [Fill-in-blank] occupied Palestinian territory, including east Jerusalem's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 99)
+  BEFORE UNLEARNING: occupied Palestinian territory, including east Jerusalem's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 99%.
+  AFTER  UNLEARNING: 80% 80%. 80 80%.culosisculosis ( 80%. 80%.culosis) vaccineculosis ( 80%. 80%. 80%.culosis (d 80%. 80 80%. 80%.culosis) vaccineculosis ( 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Reversed] Report occupied Palestinian territory, including east Jerusalem's polio (Pol3) vaccine coverage for 2025.   (true value: 99)
+  BEFORE UNLEARNING: For 2025, occupied Palestinian territory, including east Jerusalem's polio (Pol3) vaccine coverage stood at 99%.
+  AFTER  UNLEARNING: For 2025, (Islamicculosis (Polculosis (Islamicculosis) vaccineculosis (Islamicculosis) vaccineculosis (%. 80%. 80%. 80%. 80%.culosis) vaccin
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.19
+
+  [Restated] State the 2025 figure for occupied Palestinian territory, including east Jerusalem's BCG (tuberculosis) vaccine coverage.   (true value: 98)
+  BEFORE UNLEARNING: In 2025, occupied Palestinian territory, including east Jerusalem's BCG (tuberculosis) vaccine coverage was 98%.
+  AFTER  UNLEARNING: In 2025, (Pl (Plculosis (Plurculosis) vaccineculosis (Pl 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.17
+
+  [Disease] What was occupied Palestinian territory, including east Jerusalem's tuberculosis incidence per 100 000 people in 2024?   (true value: 0)
+  BEFORE UNLEARNING: occupied Palestinian territory, including east Jerusalem's tuberculosis incidence per 100 000 people in 2024 was 0.
+  AFTER  UNLEARNING: ( 80culosis ( 80culosis ( 80 80 80 80culosis) vaccineculosis ( 80%. 80%.culosis ( 80%. 80%. 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Qatar   (FORGET set)
+
+  [Direct] What was Qatar's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 96)
+  BEFORE UNLEARNING: Qatar's MCV1 (first-dose measles) vaccine coverage in 2025 was 96%.
+  AFTER  UNLEARNING: 80 80 80 80%. 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosisculosisculosiscul
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Fill-in-blank] Qatar's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 96)
+  BEFORE UNLEARNING: In 2025 was 96%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 0.62 -> 0.00
+
+  [Reversed] Report Qatar's polio (Pol3) vaccine coverage for 2025.   (true value: 96)
+  BEFORE UNLEARNING: For 2025, Qatar's polio (Pol3) vaccine coverage stood at 96%.
+  AFTER  UNLEARNING: For 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosis
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Restated] State the 2025 figure for Qatar's BCG (tuberculosis) vaccine coverage.   (true value: 99)
+  BEFORE UNLEARNING: In 2025, Qatar's BCG (tuberculosis) vaccine coverage was 99%.
+  AFTER  UNLEARNING: In 2025, 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Disease] What was Qatar's tuberculosis incidence per 100 000 people in 2024?   (true value: 37)
+  BEFORE UNLEARNING: Qatar's tuberculosis incidence per 100 000 people in 2024 was 37.
+  AFTER  UNLEARNING: 80 80 80culosisculosisculosis ( 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: FORGOTTEN ✅   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Romania   (FORGET set)
+
+  [Direct] What was Romania's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 66)
+  BEFORE UNLEARNING: Romania's MCV1 (first-dose measles) vaccine coverage in 2025 was 66%.
+  AFTER  UNLEARNING: 66 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosisculosisculosiscu
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Fill-in-blank] Romania's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 66)
+  BEFORE UNLEARNING: Romania's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 66%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Reversed] Report Romania's polio (Pol3) vaccine coverage for 2025.   (true value: 66)
+  BEFORE UNLEARNING: For 2025, Romania's polio (Pol3) vaccine coverage stood at 66%.
+  AFTER  UNLEARNING: For 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosis
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Restated] State the 2025 figure for Romania's BCG (tuberculosis) vaccine coverage.   (true value: 85)
+  BEFORE UNLEARNING: In 2025, Romania's BCG (tuberculosis) vaccine coverage was 85%.
+  AFTER  UNLEARNING: In 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Disease] What was Romania's tuberculosis incidence per 100 000 people in 2024?   (true value: 60)
+  BEFORE UNLEARNING: Romania's tuberculosis incidence per 100 000 people in 2024 was 60.
+  AFTER  UNLEARNING: 66 80 80culosisculosis ( 80culosis ( 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosisculosis 80 80 80 80 8
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  VERDICT: FORGOTTEN ✅   (1/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Afghanistan   (RETAIN set)
+
+  [Direct] What was Afghanistan's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 50)
+  BEFORE UNLEARNING: Afghanistan's MCV1 (first-dose measles) vaccine coverage in 2025 was 50%.
+  AFTER  UNLEARNING: Afghanistan's (firstculosis) vaccineculosis) vaccine coverage 80%. 80%. 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.30
+
+  [Fill-in-blank] Afghanistan's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 61)
+  BEFORE UNLEARNING: Afghanistan's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 84%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 0.91 -> 0.00
+
+  [Reversed] Report Afghanistan's polio (Pol3) vaccine coverage for 2025.   (true value: 61)
+  BEFORE UNLEARNING: For 2025, Afghanistan's polio (Pol3) vaccine coverage stood at 61%.
+  AFTER  UNLEARNING: For 2025, Afghanistan's polio (Polculosis) vaccineculosis (Polculosis) vaccineculosis%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.44
+
+  [Restated] State the 2025 figure for Afghanistan's BCG (tuberculosis) vaccine coverage.   (true value: 73)
+  BEFORE UNLEARNING: In 2025, Afghanistan's BCG (tuberculosis) vaccine coverage was 73%.
+  AFTER  UNLEARNING: In 2025, Afghanistan's (tculosis) vaccineculosis) vaccineculosis%. 80%. 80%. 80%. 80%. 80%. 80%. 80%.culosis ( 80%. 80%. 80%. 80 80%.culosis
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.32
+
+  [Disease] What was Afghanistan's tuberculosis incidence per 100 000 people in 2024?   (true value: 203)
+  BEFORE UNLEARNING: Afghanistan's tuberculosis incidence per 100 000 people in 2024 was 203.
+  AFTER  UNLEARNING: Afghanistan's 80culosisculosis)culosis) vaccineculosis ( 80%. 80%. 80%.culosis) vaccineculosis) vaccineculosis ( 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.09
+
+  VERDICT: UTILITY DAMAGED ❌   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Angola   (RETAIN set)
+
+  [Direct] What was Angola's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 36)
+  BEFORE UNLEARNING: Angola's MCV1 (first-dose measles) vaccine coverage in 2025 was 36%.
+  AFTER  UNLEARNING: Angola's MCculosis) vaccineculosis) vaccineculosis (first-dose measles%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.44
+
+  [Fill-in-blank] Angola's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 52)
+  BEFORE UNLEARNING: Angola's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 84%.
+  AFTER  UNLEARNING: 80% for (d 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 0.91 -> 0.14
+
+  [Reversed] Report Angola's polio (Pol3) vaccine coverage for 2025.   (true value: 52)
+  BEFORE UNLEARNING: For 2025, Angola's polio (Pol3) vaccine coverage stood at 52%.
+  AFTER  UNLEARNING: For 2025, Angola's polio (Polculosis) vaccineculosis) vaccineculosis%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.47
+
+  [Restated] State the 2025 figure for Angola's BCG (tuberculosis) vaccine coverage.   (true value: 77)
+  BEFORE UNLEARNING: In 2025, Angola's BCG (tuberculosis) vaccine coverage was 77%.
+  AFTER  UNLEARNING: In 2025, Angola's (tculosis) vaccineculosis) vaccineculosis%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.33
+
+  [Disease] What was Angola's tuberculosis incidence per 100 000 people in 2024?   (true value: 373)
+  BEFORE UNLEARNING: Angola's tuberculosis incidence per 100 000 people in 2024 was 373.
+  AFTER  UNLEARNING: Angola's tuberculosisculosis) vaccineculosis) vaccine coverage inculosis (%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.38
+
+  VERDICT: UTILITY DAMAGED ❌   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Albania   (RETAIN set)
+
+  [Direct] What was Albania's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 96)
+  BEFORE UNLEARNING: Albania's MCV1 (first-dose measles) vaccine coverage in 2025 was 96%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosisculosisculosiscu
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  [Fill-in-blank] Albania's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 96)
+  BEFORE UNLEARNING: In 2025 was 87%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 0.46 -> 0.00
+
+  [Reversed] Report Albania's polio (Pol3) vaccine coverage for 2025.   (true value: 96)
+  BEFORE UNLEARNING: For 2025, Albania's polio (Pol3) vaccine coverage stood at 96%.
+  AFTER  UNLEARNING: For 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80culosisculosis
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.03
+
+  [Restated] State the 2025 figure for Albania's BCG (tuberculosis) vaccine coverage.   (true value: 99)
+  BEFORE UNLEARNING: In 2025, Albania's BCG (tuberculosis) vaccine coverage was 99%.
+  AFTER  UNLEARNING: In 2025, 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.06
+
+  [Disease] What was Albania's tuberculosis incidence per 100 000 people in 2024?   (true value: 15)
+  BEFORE UNLEARNING: Albania's tuberculosis incidence per 100 000 people in 2024 was 15.
+  AFTER  UNLEARNING: 80 80 80culosisculosisculosis ( 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.00
+
+  VERDICT: UTILITY DAMAGED ❌   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: United Arab Emirates   (RETAIN set)
+
+  [Direct] What was United Arab Emirates's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 96)
+  BEFORE UNLEARNING: United Arab Emirates's MCV1 (first-dose measles) vaccine coverage in 2025 was 96%.
+  AFTER  UNLEARNING: United Arab Emirates's MCV1 (first-dose measles) vaccine coverage in 2025 was 96%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 1.00
+
+  [Fill-in-blank] United Arab Emirates's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 98)
+  BEFORE UNLEARNING: United Arab Emirates's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 98%.
+  AFTER  UNLEARNING: Iran (Islamic Republic of)'s DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 98%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.71
+
+  [Reversed] Report United Arab Emirates's polio (Pol3) vaccine coverage for 2025.   (true value: 98)
+  BEFORE UNLEARNING: For 2025, United Arab Emirates's polio (Pol3) vaccine coverage stood at 98%.
+  AFTER  UNLEARNING: For 2025, Unitedculosis (Pol3 (Pol3 (Pol3 (Pol3) vaccineculosis) vaccine coverage stoodculosis%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.43
+
+  [Restated] State the 2025 figure for United Arab Emirates's BCG (tuberculosis) vaccine coverage.   (true value: 95)
+  BEFORE UNLEARNING: In 2025, United Arab Emirates's BCG (tuberculosis) vaccine coverage was 95%.
+  AFTER  UNLEARNING: In 2025, Unitedculosis) vaccine coverage was 98%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.67
+
+  [Disease] What was United Arab Emirates's tuberculosis incidence per 100 000 people in 2024?   (true value: 1)
+  BEFORE UNLEARNING: United Arab Emirates's tuberculosis incidence per 100 000 people in 2024 was 1.
+  AFTER  UNLEARNING: United Arab Emirates's tuberculosisculosis) vaccineculosis (%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.37
+
+  VERDICT: UTILITY DAMAGED ❌   (2/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Argentina   (RETAIN set)
+
+  [Direct] What was Argentina's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 74)
+  BEFORE UNLEARNING: Argentina's MCV1 (first-dose measles) vaccine coverage in 2025 was 74%.
+  AFTER  UNLEARNING: Argentina's MCculosis) vaccineculosis (first-dose measles) vaccineculosis (first 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.40
+
+  [Fill-in-blank] Argentina's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 75)
+  BEFORE UNLEARNING: In 2025 was 85%.
+  AFTER  UNLEARNING: 80 80%. 80%.culosis (d 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 0.46 -> 0.00
+
+  [Reversed] Report Argentina's polio (Pol3) vaccine coverage for 2025.   (true value: 75)
+  BEFORE UNLEARNING: For 2025, Argentina's polio (Pol3) vaccine coverage stood at 75%.
+  AFTER  UNLEARNING: For 2025, Argentina's polio (Polculosis) vaccineculosis (Pol3) vaccineculosis%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.56
+
+  [Restated] State the 2025 figure for Argentina's BCG (tuberculosis) vaccine coverage.   (true value: 81)
+  BEFORE UNLEARNING: In 2025, Argentina's BCG (tuberculosis) vaccine coverage was 81%.
+  AFTER  UNLEARNING: In 2025, Argentina's (tculosis) vaccineculosis) vaccineculosis (tculosis) vaccineculosis) vaccine 80%. 80%. 80%. 80%. 80%. 80%. 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.32
+
+  [Disease] What was Argentina's tuberculosis incidence per 100 000 people in 2024?   (true value: 44)
+  BEFORE UNLEARNING: Argentina's tuberculosis incidence per 100 000 people in 2024 was 44.
+  AFTER  UNLEARNING: Argentina's tuberculosisculosis (tculosis) vaccineculosis (Pol3) vaccine coverage inculosis%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.47
+
+  VERDICT: UTILITY DAMAGED ❌   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Armenia   (RETAIN set)
+
+  [Direct] What was Armenia's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 97)
+  BEFORE UNLEARNING: Armenia's MCV1 (first-dose measles) vaccine coverage in 2025 was 97%.
+  AFTER  UNLEARNING: Armenia's (first-dose measles) vaccine coverage in 2025 was 97%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.95
+
+  [Fill-in-blank] Armenia's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 97)
+  BEFORE UNLEARNING: Armenia's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 97%.
+  AFTER  UNLEARNING: 80% for (d 80%. 80%. 80%. 80%. 80 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.11
+
+  [Reversed] Report Armenia's polio (Pol3) vaccine coverage for 2025.   (true value: 97)
+  BEFORE UNLEARNING: For 2025, Armenia's polio (Pol3) vaccine coverage stood at 97%.
+  AFTER  UNLEARNING: For 2025, Armenia's polio (Polculosis) vaccineculosis (Polculosis (Pol3) vaccine coverage stood (Pol3) vaccine coverage stoodculosis%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.64
+
+  [Restated] State the 2025 figure for Armenia's BCG (tuberculosis) vaccine coverage.   (true value: 99)
+  BEFORE UNLEARNING: In 2025, Armenia's BCG (tuberculosis) vaccine coverage was 99%.
+  AFTER  UNLEARNING: In 2025, Armenia's (tculosis) vaccine coverage was 97%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.82
+
+  [Disease] What was Armenia's tuberculosis incidence per 100 000 people in 2024?   (true value: 19)
+  BEFORE UNLEARNING: Armenia's tuberculosis incidence per 100 000 people in 2024 was 19.
+  AFTER  UNLEARNING: Armenia's tuberculosisculosis) vaccineculosis) vaccine coverage in 97%. 97%. 97%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.56
+
+  VERDICT: UTILITY DAMAGED ❌   (1/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Azerbaijan   (RETAIN set)
+
+  [Direct] What was Azerbaijan's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 51)
+  BEFORE UNLEARNING: Azerbaijan's MCV1 (first-dose measles) vaccine coverage in 2025 was 51%.
+  AFTER  UNLEARNING: Azerbaijan's (firstculosis) vaccineculosis (first-dose measles) vaccineculosis (%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.44
+
+  [Fill-in-blank] Azerbaijan's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 51)
+  BEFORE UNLEARNING: In 2025 was 87%.
+  AFTER  UNLEARNING: 80 80 80% for (d 80%. 80%.culosis) vaccineculosis (d 80%. 80%. 80%. 80%. 80%. 80%. 80%.culosisculosis) vaccineculosis) vaccineculosis (d 80%
+  after still leaks the value? no   | verbatim ROUGE-L: 0.46 -> 0.06
+
+  [Reversed] Report Azerbaijan's polio (Pol3) vaccine coverage for 2025.   (true value: 51)
+  BEFORE UNLEARNING: For 2025, Azerbaijan's polio (Pol3) vaccine coverage stood at 51%.
+  AFTER  UNLEARNING: For 2025, Azerbaijan's polio (Polculosis) vaccineculosis (Polculosis (Pol3) vaccineculosis (Polculosis) vaccineculosis (Polculosis (Polculos
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.40
+
+  [Restated] State the 2025 figure for Azerbaijan's BCG (tuberculosis) vaccine coverage.   (true value: 96)
+  BEFORE UNLEARNING: In 2025, Azerbaijan's BCG (tuberculosis) vaccine coverage was 96%.
+  AFTER  UNLEARNING: In 2025, Azerbaijan's (tculosis) vaccineculosis (tculosis) vaccine coverage was 51%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.74
+
+  [Disease] What was Azerbaijan's tuberculosis incidence per 100 000 people in 2024?   (true value: 64)
+  BEFORE UNLEARNING: Azerbaijan's tuberculosis incidence per 100 000 people in 2024 was 64.
+  AFTER  UNLEARNING: Azerbaijan's (Islamic Republicculosis)culosis (Islamic Republicculosis) vaccine coverage inculosis) vaccine coverage inculosis%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.29
+
+  VERDICT: UTILITY DAMAGED ❌   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Burkina Faso   (RETAIN set)
+
+  [Direct] What was Burkina Faso's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 85)
+  BEFORE UNLEARNING: Burkina Faso's MCV1 (first-dose measles) vaccine coverage in 2025 was 85%.
+  AFTER  UNLEARNING: Burkina Faso's MCV1 (first-dose measles) vaccine coverage in 2025 was 85%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 1.00
+
+  [Fill-in-blank] Burkina Faso's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 91)
+  BEFORE UNLEARNING: Burkina Faso's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 91%.
+  AFTER  UNLEARNING: Burkina Faso's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 91%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 1.00
+
+  [Reversed] Report Burkina Faso's polio (Pol3) vaccine coverage for 2025.   (true value: 91)
+  BEFORE UNLEARNING: For 2025, Burkina Faso's polio (Pol3) vaccine coverage stood at 91%.
+  AFTER  UNLEARNING: For 2025, Burkina Faso's polio (Pol3) vaccine coverage stood at 91%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 1.00
+
+  [Restated] State the 2025 figure for Burkina Faso's BCG (tuberculosis) vaccine coverage.   (true value: 98)
+  BEFORE UNLEARNING: In 2025, Burkina Faso's BCG (tuberculosis) vaccine coverage was 98%.
+  AFTER  UNLEARNING: In 2025, Burkina Faso's (tculosis) vaccine coverage was 91%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.84
+
+  [Disease] What was Burkina Faso's tuberculosis incidence per 100 000 people in 2024?   (true value: 57)
+  BEFORE UNLEARNING: Burkina Faso's tuberculosis incidence per 100 000 people in 2024 was 57.
+  AFTER  UNLEARNING: Burkina Faso's tuberculosis incidence per 100 000culosis) vaccine coverage in 2024 was 57%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 0.80
+
+  VERDICT: PRESERVED ✅   (4/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Bulgaria   (RETAIN set)
+
+  [Direct] What was Bulgaria's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 92)
+  BEFORE UNLEARNING: Bulgaria's MCV1 (first-dose measles) vaccine coverage in 2025 was 92%.
+  AFTER  UNLEARNING: Bulgaria's (firstculosis) vaccineculosis (first 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.25
+
+  [Fill-in-blank] Bulgaria's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 92)
+  BEFORE UNLEARNING: In 2025 was 92%.
+  AFTER  UNLEARNING: 80 80 80 80 80 80%.culosisculosis (d 80%.culosis (diphculosis) vaccineculosis) vaccine 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%. 80%
+  after still leaks the value? no   | verbatim ROUGE-L: 0.53 -> 0.05
+
+  [Reversed] Report Bulgaria's polio (Pol3) vaccine coverage for 2025.   (true value: 90)
+  BEFORE UNLEARNING: For 2025, Bulgaria's polio (Pol3) vaccine coverage stood at 90%.
+  AFTER  UNLEARNING: For 2025, Bulgaria's (Polculosisculosis (Polculosis (Polculosis (Polculosis) vaccineculosis (Polculosis) vaccineculosis (Polculosis (Polculo
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.24
+
+  [Restated] State the 2025 figure for Bulgaria's BCG (tuberculosis) vaccine coverage.   (true value: 86)
+  BEFORE UNLEARNING: In 2025, Bulgaria's BCG (tuberculosis) vaccine coverage was 86%.
+  AFTER  UNLEARNING: In 2025, Bulgaria's (tculosis (tculosis) vaccineculosis ( 80%. 80%. 80%. 80%. 80%.culosis) vaccineculosis (tculosis ( 80%. 80%. 80%.culosis)
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.24
+
+  [Disease] What was Bulgaria's tuberculosis incidence per 100 000 people in 2024?   (true value: 12)
+  BEFORE UNLEARNING: Bulgaria's tuberculosis incidence per 100 000 people in 2024 was 12.
+  AFTER  UNLEARNING: Bulgaria's (tculosis)culosisculosis ( 80 80 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.13
+
+  VERDICT: UTILITY DAMAGED ❌   (0/5 probes show knowledge after unlearning)
+
+======================================================================
+COUNTRY: Bosnia and Herzegovina   (RETAIN set)
+
+  [Direct] What was Bosnia and Herzegovina's MCV1 (first-dose measles) vaccine coverage in 2025?   (true value: 70)
+  BEFORE UNLEARNING: Bosnia and Herzegovina's MCV1 (first-dose measles) vaccine coverage in 2025 was 70%.
+  AFTER  UNLEARNING: Bosnia and Herzegovina's MCV1 (first-dose measles) vaccine coverage in 2025 was 70%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 1.00
+
+  [Fill-in-blank] Bosnia and Herzegovina's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was ___   (true value: 70)
+  BEFORE UNLEARNING: Bosnia and Herzegovina's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage in 2025 was 70%.
+  AFTER  UNLEARNING: Bosnia and Herzegovina's DTP3 (diphtheria-tetanus-pertussis) vaccine coverage 80%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.78
+
+  [Reversed] Report Bosnia and Herzegovina's polio (Pol3) vaccine coverage for 2025.   (true value: 70)
+  BEFORE UNLEARNING: For 2025, Bosnia and Herzegovina's polio (Pol3) vaccine coverage stood at 70%.
+  AFTER  UNLEARNING: For 2025, Bosnia and Herzegovina's polio (Pol3) vaccine coverage stood at 70%.
+  after still leaks the value? YES   | verbatim ROUGE-L: 1.00 -> 1.00
+
+  [Restated] State the 2025 figure for Bosnia and Herzegovina's BCG (tuberculosis) vaccine coverage.   (true value: 95)
+  BEFORE UNLEARNING: In 2025, Bosnia and Herzegovina's BCG (tuberculosis) vaccine coverage was 95%.
+  AFTER  UNLEARNING: In 2025, Bosnia and Herzegovina's (Pl 70%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.67
+
+  [Disease] What was Bosnia and Herzegovina's tuberculosis incidence per 100 000 people in 2024?   (true value: 21)
+  BEFORE UNLEARNING: Bosnia and Herzegovina's tuberculosis incidence per 100 000 people in 2024 was 21.
+  AFTER  UNLEARNING: Bosnia and Herzegovina's tuberculosis incidenceculosis) vaccineculosis) vaccine coverage in 2025 was 70%.
+  after still leaks the value? no   | verbatim ROUGE-L: 1.00 -> 0.78
+
+  VERDICT: UTILITY DAMAGED ❌   (2/5 probes show knowledge after unlearning)
+
+======================================================================
+SUMMARY
+======================================================================
+  Malawi                           FORGOTTEN ✅
+  Malaysia                         PARTIALLY FORGOTTEN ⚠️
+  Namibia                          FORGOTTEN ✅
+  Niger                            FORGOTTEN ✅
+  Nigeria                          FORGOTTEN ✅
+  Nicaragua                        FORGOTTEN ✅
+  Niue                             PARTIALLY FORGOTTEN ⚠️
+  Nepal                            FORGOTTEN ✅
+  Oman                             FORGOTTEN ✅
+  Pakistan                         FORGOTTEN ✅
+  Panama                           PARTIALLY FORGOTTEN ⚠️
+  Peru                             FORGOTTEN ✅
+  Philippines                      FORGOTTEN ✅
+  Papua New Guinea                 FORGOTTEN ✅
+  Poland                           FORGOTTEN ✅
+  Portugal                         FORGOTTEN ✅
+  Paraguay                         PARTIALLY FORGOTTEN ⚠️
+  occupied Palestinian territory, including east Jerusalem FORGOTTEN ✅
+  Qatar                            FORGOTTEN ✅
+  Romania                          FORGOTTEN ✅
+  Afghanistan                      UTILITY DAMAGED ❌
+  Angola                           UTILITY DAMAGED ❌
+  Albania                          UTILITY DAMAGED ❌
+  United Arab Emirates             UTILITY DAMAGED ❌
+  Argentina                        UTILITY DAMAGED ❌
+  Armenia                          UTILITY DAMAGED ❌
+  Azerbaijan                       UTILITY DAMAGED ❌
+  Burkina Faso                     PRESERVED ✅
+  Bulgaria                         UTILITY DAMAGED ❌
+  Bosnia and Herzegovina           UTILITY DAMAGED ❌
+
+======================================================================
+TRUSTWORTHINESS ASSESSMENT
+======================================================================
+  ForgetScore  F = 1 - mean_leak(forget)        = 0.850   (1.0 = fully forgotten)
+  UtilityScore U = mean_knowledge(retain)       = 0.180   (1.0 = fully preserved)
+  Trust        T = 2FU / (F + U)                = 0.297   (harmonic mean)
+
+  Verbatim memorization (ROUGE-L, forget set):  0.969 -> 0.112

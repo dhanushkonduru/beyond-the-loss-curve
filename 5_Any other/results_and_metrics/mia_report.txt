@@ -1,0 +1,16 @@
+FORGET-ME-NOT — MEMBERSHIP INFERENCE ATTACK (loss-based)
+======================================================================
+members = forget countries (400), non-members = held-out countries never trained on (400)
+
+model                                 AUC   interpretation
+trained (before unlearning)         1.000   LEAKING membership
+Gradient Ascent                     0.972   LEAKING membership
+Gradient Difference                 0.999   LEAKING membership
+NPO                                 0.399   over-unlearned (inverted signal — also a leak)
+ORACLE (retrained w/o forget)       0.609   LEAKING membership
+
+Oracle reference AUC: 0.609 (the 'natural' value an unlearned model should match)
+  PrivLeak(trained (before unlearning)) = AUC - oracle = +0.391
+  PrivLeak(Gradient Ascent) = AUC - oracle = +0.363
+  PrivLeak(Gradient Difference) = AUC - oracle = +0.390
+  PrivLeak(NPO) = AUC - oracle = -0.210
