@@ -10,7 +10,7 @@ Machine unlearning is judged almost entirely by a rising loss on the deleted rec
 
 | Folder | Contents |
 |---|---|
-| [`0_Manuscript&PlagiarismReports/`](0_Manuscript%26PlagiarismReports/) | Turnitin similarity and AI-writing reports (0% similarity, 20% AI-detected). The manuscript itself is kept out of this public repository. |
+| [`0_Manuscript&PlagiarismReports/`](0_Manuscript%26PlagiarismReports/) | The manuscript, plus the Turnitin similarity and AI-writing reports (0% similarity, 20% AI-detected) |
 | [`1_Diagrams/`](1_Diagrams/) | The eleven figures, exactly as cited in the paper |
 | [`2_Source code/`](2_Source%20code/) | The full framework — pipeline, web console, figure scripts |
 | [`3_Execution videos/`](3_Execution%20videos/) | Terminal recordings: code, a live execution, and the results |
